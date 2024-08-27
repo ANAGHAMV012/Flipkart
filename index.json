@@ -1,0 +1,18 @@
+{
+    "header": [
+        {
+            "logo": "https://flipkart-clone-eight-kohl.vercel.app/assets/img/flipkart-logo.png",
+            "explore": "Explore",
+            "plus": "Plus",
+            "plusicon": "https://flipkart-clone-eight-kohl.vercel.app/assets/img/plus_icon.png",
+            "placeholder": "Search for products, brands and more",
+            "search": "icons/search.svg",
+            "login": "Login",
+            "selll": "Become a Seller",
+            "more": "More",
+            "dwn": "images/header-arrow.svg",
+            "cartImg": "",
+            "cart": "Cart"
+        }
+    ]
+}
