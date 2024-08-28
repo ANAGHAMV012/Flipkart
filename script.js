@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <input class="search-input" type="text" placeholder="${item.placeholder}">
                         </div>
                         <button>
-                            <img src="${item.searchImg}">
+                            <img src="${item.search}">
                         </button>
                     </div>
                 </form>`
@@ -60,10 +60,48 @@ document.addEventListener('DOMContentLoaded', () => {
                 cart.className="cart"
                 cart.innerHTML=`
                 <div class="car">
-                    <span>${item.cartImg}</span>
-                    <img src="${item.dwn}">
+                    <img src="${item.cartImg}">
+                    <span>${item.cart}</span>
                 </div>`
                 head.appendChild(cart)
             })
+            const head2 = document.querySelector('.head2')
+            const headmar = document.createElement('div')
+            headmar.className = "head-mar"
+            data.nav.forEach(item => {       
+                const sp = document.createElement('span')
+                sp.innerHTML = `
+                    ${item.elec}
+                    <img src ="${item.dwn}">
+                    `
+                head2.appendChild(headmar)
+                headmar.appendChild(sp)
+            })
+            const top = document.querySelector('.top')
+            const filter = document.createElement('div')
+            filter.className="filters"
+            filter.innerHTML=`
+            <span>${data.sidebar[0].fil}</span>
+            `
+            top.appendChild(filter)
+            const categor = document.createElement('div')
+            categor.className="cate"
+            categor.innerHTML=`
+            <span>${data.sidebar[0].cate}</span>
+            <div class="access"><img src="${}"><div class="">${}</div></div>
+            `
+            top.appendChild(categor)
+            const price = document.createElement('div')
+            price.className="cate"
+            price.innerHTML=`
+            <span>${data.sidebar[0].price}</span>
+            `
+            top.appendChild(price)
+            const brand = document.createElement('div')
+            brand.className="cate"
+            brand.innerHTML=`
+            <span>${data.sidebar[0].brand}</span>
+            `
+            top.appendChild(price)
         })
 })

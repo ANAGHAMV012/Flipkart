@@ -1,18 +1,64 @@
 {
     "header": [
         {
-            "logo": "https://flipkart-clone-eight-kohl.vercel.app/assets/img/flipkart-logo.png",
+            "logo": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png",
             "explore": "Explore",
             "plus": "Plus",
-            "plusicon": "https://flipkart-clone-eight-kohl.vercel.app/assets/img/plus_icon.png",
+            "plusicon": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/plus_aef861.png",
             "placeholder": "Search for products, brands and more",
             "search": "icons/search.svg",
             "login": "Login",
             "selll": "Become a Seller",
             "more": "More",
-            "dwn": "images/header-arrow.svg",
-            "cartImg": "",
+            "dwn": "icons/header-arrow.svg",
+            "cartImg": "icons/cart.svg",
             "cart": "Cart"
+        }
+    ],
+    "nav": [
+        {
+            "elec":"Electronics",
+            "dwn": "icons/nav-arrow.svg"
+        },
+        {
+            "elec": "TVs & Appliances",
+            "dwn": "icons/nav-arrow.svg"
+        },
+        {
+            "elec": "Men",
+            "dwn": "icons/nav-arrow.svg"
+        },
+        {
+            "elec": "Women",
+            "dwn": "icons/nav-arrow.svg"
+        },
+        {
+            "elec": "Baby & Kids",
+            "dwn": "icons/nav-arrow.svg"
+        },
+        {
+            "elec": "Home & Furniture",
+            "dwn": "icons/nav-arrow.svg"
+        },
+        {
+            "elec": "Sports, Books & More",
+            "dwn": "icons/nav-arrow.svg"
+        },
+        {
+            "elec": "Flights"
+        },
+        {
+            "elec": "Offer Zone"
+        }
+    ],
+    "sidebar": [
+        {
+            "fil": "Filters",
+            "cate": "Categories",
+            "nex": "icons/left-arrow.svg",
+            "acc": "Mobile & Accessories",
+            "price": "price",
+            "brand": "BRAND"   
         }
     ]
 }
