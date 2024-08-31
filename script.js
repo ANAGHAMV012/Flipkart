@@ -84,13 +84,13 @@ document.addEventListener('DOMContentLoaded', () => {
             <span>${data.sidebar[0].fil}</span>
             `
             top.appendChild(filter)
-            const categor = document.createElement('div')
-            categor.className="cate"
-            categor.innerHTML=`
-            <span>${data.sidebar[0].cate}</span>
-            <div class="access"><img src="${}"><div class="">${}</div></div>
-            `
-            top.appendChild(categor)
+            // const categor = document.createElement('div')
+            // categor.className="cate"
+            // categor.innerHTML=`
+            // <span>${data.sidebar[0].cate}</span>
+            // <div class="access"><img src="${}"><div class="">${}</div></div>
+            // `
+            // top.appendChild(categor)
             const price = document.createElement('div')
             price.className="cate"
             price.innerHTML=`
@@ -105,3 +105,16 @@ document.addEventListener('DOMContentLoaded', () => {
             top.appendChild(price)
         })
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
