@@ -12,7 +12,8 @@
             "more": "More",
             "dwn": "icons/header-arrow.svg",
             "cartImg": "icons/cart.svg",
-            "cart": "Cart"
+            "cart": "Cart",
+            "sea": "icons/magnifying-glass-solid.svg"
         }
     ],
     "nav": [
@@ -51,14 +52,30 @@
             "elec": "Offer Zone"
         }
     ],
-    "sidebar": [
-        {
-            "fil": "Filters",
-            "cate": "Categories",
-            "nex": "icons/left-arrow.svg",
-            "acc": "Mobile & Accessories",
-            "price": "price",
-            "brand": "BRAND"   
-        }
-    ]
+    "sidebar": {
+        "fil": "Filters",
+        "title": "Categories",
+        "nex": "icons/nav-arrow.svg",
+        "acc": "Mobile & Accessories",
+        "mob": "Mobiles",
+        "price": "PRICE",
+        "brand": "BRAND" ,
+        "min": "Min",
+        "thou": "₹10000",
+        "fiv": "₹15000",
+        "twe": "₹20000",
+        "thir": "₹30000",
+        "to": "to",
+        "tho": "₹10000",
+        "fi": "₹15000",
+        "tw": "₹20000",
+        "thi": "₹30000",
+        "apple": "Apple",
+        "sam": "SAMSUNG",
+        "gog": "Google",
+        "mot": "MOTOROLA",
+        "viv": "vivo",
+        "opp": "OPPO",
+        "more": "176 more"
+    }
 }
