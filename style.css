@@ -371,7 +371,7 @@ html{
     display: flex;
     align-items: center;
 }
-.price, .brand{
+.price, .brand, .flip{
     padding: 16px;
     border-bottom: 1px solid #f0f0f0;
 }
@@ -542,6 +542,7 @@ html{
     letter-spacing: .3px;
     display: inline-block;
     width: 95%;
+    font-family: 'isb';
 }
 .brandtop img{
     display: inline-block;
@@ -581,13 +582,13 @@ html{
     display: block;
     padding: 3px 0;
 }
-.apple input{
+.apple input, .flip input{
     visibility: hidden;
     position: absolute;
     top: 0;
     left: 0;
 }
-.appjus{
+.appjus, .flipjus{
     position: relative;
     width: 14px;
     height: 14px;
@@ -599,9 +600,9 @@ html{
     vertical-align: middle;
     cursor: pointer;
 }
-.kof{
+.kof, .vof{
     vertical-align: middle;
-    font-size: 14px;
+    font-size: 13.2px;
     padding-left: 11px;
     color: #212121;
     display: inline-block;
@@ -611,6 +612,7 @@ html{
     text-overflow: ellipsis;
     line-height: 1;
     cursor: pointer;
+    font-family: 'ir';
 }
 .bot2{
     font-size: 12px;
@@ -618,12 +620,287 @@ html{
     color: #2874f0;
     text-transform: uppercase;
     cursor: pointer;
+    font-family: 'isb';
+}
+.flip{
+    display: flex;
+}
+.flip label{
+    cursor: pointer;
+    width: 100%;
+    position: relative;
+    display: block;
+}
+.vof img{
+    height: 21px;
+}
+.ques{
+    display: inline-block;
+    position: relative;
+}
+.ques span{
+    border-radius: 50%;
+    background-color: #fff;
+    color: #878787;
+    font-weight: 500;
+    width: 16px;
+    height: 16px;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, .2);
+    vertical-align: middle;
+    margin: 0 2px 0 8px;
+    cursor: pointer;
 }
 .right{
     flex-grow: 1;
     overflow: auto;
     display: flex;
     flex-flow: column;
+    background-color: #fff;
+}
+.right-one{
+    background: #fff;
+    padding: 12px 16px 0;
+    border-bottom: 1px solid #f0f0f0;
+    min-height: 72px;
+}
+.one-di{
+    font-size: 12px;
+    color: #878787;
+    display: inline-block;
+}
+.one-di a{
+    max-width: 80px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 11px;
+    font-family: 'ir';
+}
+.one-di img{
+    height: 7px;
+    width: 20px;
+    transform: rotate(180deg);
+    vertical-align: middle;
+    color: #878787;
+}
+.one-di:last-child img{
+    display: none;
+}
+.right2{
+    padding: 12px 5px 4px 0;
+    display: block;
+    color: #878787;
+    width: 100%;
+    clear: both;
+    line-height: 1.45;
+    font-size: 12px;
+}
+.right2 a{
+    color: #2874f0;
+    font-family: 'ir';
+    line-height: 1.45;
+    font-size: 11px;
+    font-weight: 400;
+}
+.right3{
+    font-weight: 500;
+    font-size: 15.2px;
+    margin-top: 8px;
+    display: inline-block;
+    font-family: 'isb';
+}
+.right4{
+    display: inline-block;
+    margin-left: 10px;
+    color: #878787;
+    font-size: 11px;
+    font-family: 'ir';
+}
+.right5{
+    display: flex;
+}
+.right5 span{
+    border-bottom: 2px solid transparent;
+    display: inline-block;
+    font-weight: 500;
+    padding: 8px 10px 4px 0;
+    font-family: 'isb';
+    font-size: 14px;
+}
+.spane{
+    padding: 8px 0 4px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 400;
+    font-family: 'ir';
+    font-size: 13px;
+}
+.span.show{
+    color: #2874f0;
+    cursor: default;
+    border-bottom: 2px solid #2874f0;
+    font-weight: 500;
+    font-family: 'isb';
+}
+.right-dwn{
+    width: 100%;
+}
+.right-pad{
+    line-height: 1;
+    padding: 24px 0 30px 24px;
+    display: block;
+    position: relative;
+    border-bottom: 1px solid #f0f0f0;
+}
+.right-pad a{
+    display: flex;
+    position: relative;
+}
+.rpadl{
+    position: relative;
+    width: 200px;
+}
+.rpdl1{
+    position: relative;
+    display: block;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+.rpdl1 img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    opacity: 1;
+    max-width: 100%;
+    max-height: 100%;
+}
+.rpdl2{
+    display: block;
+    margin-top: 16px;
+}
+.rpdl2 span{
+    display: inline-block;
+}
+#label1{
+    cursor: pointer;
+    width: 100%;
+    position: relative;
+    display: block;
+}
+#label1 input{
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.sung{
+    position: relative;
+    width: 14px;
+    height: 14px;
+    background-color: transparent;
+    border: 1.4px solid #c2c2c2;
+    border-radius: 1.5px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+#label2{
+    vertical-align: middle;
+    margin-left: 8px;
+    font-size: 14px;
+    color: #212121;
+    cursor: pointer;
+}
+#label2 span{
+    font-size: 14px;
+    color: #212121;
+    cursor: pointer;
+}
+#rpdl3{
+    position: absolute;
+    display: inline-block;
+    top: 2px;
+    right: -8px;
+    cursor: pointer;
+}
+.rpd-sub{
+    position: relative;
+    display: inline-flex;
+}
+.rpd-sub svg{
+    width: 16px;
+    height: 16px;
+}
+.rpadr{
+    padding-left: 25px;
+    width: calc(100% - 200px);
+    display: flex;
+    flex-flow: row-wrap;
+}
+.rpadr1{
+    width: 58.33%;
+    display: inline-block;
+    vertical-align: top;
+}
+.name{
+    font-weight: 500;
+    font-size: 18px;
+    display: block;
+    cursor: pointer;
+}
+.next{
+    margin-top: 6px;
+}
+.ulli{
+    margin-top: 13px;
+}
+.ulli ul{
+    padding: 0;
+    margin-top: 5px;
+    color: #212121;
+    line-height: 22px;
+    display: table;
+}
+.ulli ul li{
+    display: table-row;
+    list-style: none;
+    color: #212121;
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.ulli ul li::before{
+    content: "•";
+    color: #c2c2c2;
+    padding-right: 8px;
+    display: table-cell;
+}
+.rpadr{
+    padding-left: 25px;
+    width: 41.66%;
+    display: inline-block;
+    vertical-align: top;
+}
+.pad1{
+    display: inline-block;
+    margin-top: -1px;
+    padding-right: 10px;
 }
 @media screen and (max-width:978px){
 html{

@@ -168,54 +168,160 @@ document.addEventListener('DOMContentLoaded', () => {
                             <img src="" id="searc">
                             <input type="text" placeholder="Search Brand">
                         </div>
-                        <div class="apple">
-                            <label>
-                                <input>
-                                <div class="appjus"></div>
-                                <div class="kof">${data.sidebar.apple}</div>
-                            </label>
-                        </div>
-                        <div class="apple">
-                            <label>
-                                <input>
-                                <div class="appjus"></div>
-                                <div class="kof">${data.sidebar.sam}</div>
-                            </label>
-                        </div>
-                        <div class="apple">
-                            <label>
-                                <input>
-                                <div class="appjus"></div>
-                                <div class="kof">${data.sidebar.gog}</div>
-                            </label>
-                        </div>
-                        <div class="apple">
-                            <label>
-                                <input>
-                                <div class="appjus"></div>
-                                <div class="kof">${data.sidebar.mot}</div>
-                            </label>
-                        </div>
-                        <div class="apple">
-                            <label>
-                                <input>
-                                <div class="appjus"></div>
-                                <div class="kof">${data.sidebar.viv}</div>
-                            </label>
-                        </div>
-                        <div class="apple">
-                            <label>
-                                <input>
-                                <div class="appjus"></div>
-                                <div class="kof">${data.sidebar.opp}</div>
-                            </label>
-                        </div>
                     </div>
                     <div class="bot2">${data.sidebar.more}</div>
                 </div>
             `
+            const brandsContainer = brand.querySelector('.bot1');
+            data.sidebar.brands.forEach(mobilebrand => {
+                const appleDiv = document.createElement('div');
+                appleDiv.className = 'apple';
+                appleDiv.innerHTML = `
+                    <label>
+                        <input type="checkbox">
+                        <div class="appjus"></div>
+                        <div class="kof">${mobilebrand}</div>
+                    </label>
+                `;
+                brandsContainer.appendChild(appleDiv);
+            });
             top.append(brand)
             const searc = document.getElementById('searc')
             searc.src= data.header[0].sea
+
+            const flip = document.createElement('div')
+            flip.className='flip'
+            flip.innerHTML=`
+                <label>
+                    <input>
+                    <div class="flipjus"></div>
+                    <div class="vof">
+                        <img src="${data.sidebar.flip}">
+                    </div>
+                </label>
+                <div class="ques">
+                    <span>${data.sidebar.ques}</span>
+                </div>
+            `
+            top.append(flip)
+
+            data.loop.forEach(item => {
+                const loop = document.createElement('div')
+                loop.className='brand'
+                loop.innerHTML=`
+                    <div class="brandtop">
+                        <div class="bleft">${item.title}</div>
+                        <img src="${data.sidebar.nex}">
+                    </div>
+                    <div class="brand-bot">
+                        <div class="bot1"></div>
+                        </div>
+                    </div>
+                `
+                const boto = loop.querySelector('.bot1')
+                item.sub.forEach(subItems => {
+                    const apple = document.createElement('div')
+                    apple.className='apple'
+                    apple.innerHTML=`
+                        <label>
+                            <input type="checkbox">
+                            <div class="appjus"></div>
+                            <div class="kof">${subItems}</div>
+                        </label>`
+                    boto.append(apple)
+                })
+                top.append(loop)
+            })
+            const right = document.querySelector('.right')
+            right.innerHTML=`
+                <div class="right-one">
+                    <div class="right1"></div>
+                    <div class="right2"></div>
+                    <h1 class="right3">${data.right.rightth}</h1>
+                    <span class="right4">${data.right.rightfo}</span>
+                    <div class="right5">
+                        <span>${data.right.rightfi}</span>
+                    </div>
+                </div>
+            `
+            const righto = document.querySelector('.right1')
+            data.right.righto.forEach(item => {
+                const onedi = document.createElement('div')
+                onedi.className='one-di'
+                onedi.innerHTML=`
+                    <a>${item.title}</a>
+                    <img src="${item.arrow}">
+                `
+                righto.append(onedi)
+            })
+            const righttw = document.querySelector('.right2')
+            data.right.righttw.forEach(item => {
+                const twodi = document.createElement('a')
+                twodi.innerHTML=`${item}`
+                righttw.append(twodi)
+            })
+            const rightfi = document.querySelector('.right5')
+            data.right.rightfive.forEach(item => {
+                const spane = document.createElement('div')
+                spane.className='spane'
+                spane.innerHTML=`${item}`
+                rightfi.append(spane)
+            })
+            const br = document.createElement('br')
+            righttw.append(br)
+            data.right.rightmain.forEach(item => {
+                const rightdwn = document.createElement('div')
+                rightdwn.className='right-dwn'
+                rightdwn.innerHTML=`
+                    <div class="rightdwn-sub">
+                        <div class="right-pad">
+                            <a>
+                                <div class="rpadl">
+                                    <div class="rpdl1">
+                                        <img src="${item.img}">
+                                    </div>
+                                    <div class="rpdl2">
+                                        <span>
+                                            <label id="label1">
+                                                <input>
+                                                <div class="sung"></div>
+                                            </label>
+                                        </span>
+                                        <label id="label2">
+                                            <span>${item.bot}</span>
+                                        </label>
+                                    </div>
+                                    <div class="rpdl3">
+                                        <div class="rpd-sub">
+                                            <svg></svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rpadr">
+                                    <div class="rpadr1">
+                                        <div></div>
+                                        <div class="name">${item.title}</div>
+                                        <div class="next"></div>
+                                        <div class="ulli"></div>
+                                    </div>
+                                    <div class="rpadr2">
+                                        <div class="pad1"></div>
+                                        <div class="pad2"></div>
+                                        <div class="pad3"></div>
+                                        <div class="pad4"></div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                `
+                const ulli = rightdwn.querySelector('.ulli')
+                item.li.forEach(listItem => {
+                    const uls = document.createElement('ul')
+                    uls.innerHTML=`<li>${listItem}</li>`
+                    ulli.append(uls)
+                });
+                right.append(rightdwn)
+            })
         })
 })
