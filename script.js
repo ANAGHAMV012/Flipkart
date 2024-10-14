@@ -128,12 +128,11 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div class="dot">.</div>
                         <div class="dot">.</div>
                         <div class="dot">.</div>
-                        <div class="dot">.</div>
                     </div>
                 </div>
                 <div class="minmax">
                     <div class="min">
-                        <select>
+                        <select class="min-select">
                             <option>${data.sidebar.min}</option>
                             <option>${data.sidebar.thou}</option>
                             <option>${data.sidebar.fiv}</option>
@@ -143,21 +142,115 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                     <div class="to">${data.sidebar.to}</div>
                     <div class="max">
-                        <select>
-                            <option>${data.sidebar.thou}</option>
+                        <select class="max-select">
+                            <option>${data.sidebar.ten}</option>
                             <option>${data.sidebar.fiv}</option>
                             <option>${data.sidebar.twe}</option>
                             <option>${data.sidebar.thir}</option>
-                            <option>${data.sidebar.thir}</option>
+                            <option selected>${data.sidebar.ther}</option>
                         </select>
                     </div>
                 </div>
             </span>
             `
             top.appendChild(price)
-            const brand = document.createElement('div')
-            brand.className='brand'
-            brand.innerHTML=`
+            
+            document.addEventListener('DOMContentLoaded', function () {
+                const options = [...maxSelect.options].map(option => option.value);  
+                const selectedIndex = options.indexOf(defaultValue);
+                const totalSegments = options.length - 1;
+                const startPosition = -188;
+                const endPosition = 0;
+                const stepSize = (endPosition - startPosition) / totalSegments;
+                const newPosition = startPosition + (stepSize * selectedIndex);
+                rround.style.transform = `translateX(${newPosition}px)`;
+            });
+            
+            document.querySelector('.max-select').addEventListener('change', function () {
+                const rround = document.querySelector('.rround');
+                const maxSelect = document.querySelector('.max-select');
+                const options = [...maxSelect.options].map(option => option.value);  
+                const selectedOption = maxSelect.value;
+                const selectedIndex = options.indexOf(selectedOption);
+                const totalSegments = options.length - 1;
+                const startPosition = -188;
+                const endPosition = 0;
+                const stepSize = (endPosition - startPosition) / totalSegments;
+                const newPosition = startPosition + (stepSize * selectedIndex);
+                rround.style.transform = `translateX(${newPosition}px)`;
+            });
+
+            document.addEventListener('DOMContentLoaded', function () {
+                const options = [...minSelect.options].map(option => option.value);  
+                const selectedIndex = options.indexOf(defaultValue);
+                const totalSegments = options.length - 1;
+                const startPositionl = 0;
+                const endPositionl = 192;
+                const stepSizei = (endPositionl - startPositionl) / totalSegments;
+                const newPositionu = startPositionl + (stepSizei * selectedIndex);
+                lround.style.transform = `translateX(${newPositionu}px)`;
+            });
+            
+            document.querySelector('.min-select').addEventListener('change', function () {
+                const lround = document.querySelector('.lround');
+                const minSelect = document.querySelector('.min-select');
+                const options = [...minSelect.options].map(option => option.value);  
+                const selectedOption = minSelect.value;
+                const selectedIndex = options.indexOf(selectedOption);
+                const totalSegments = options.length - 1;
+                const startPosition = 0;
+                const endPosition = 192;
+                const startthick = 0;
+                const endthick = 188;
+                const thickstep = (endthick - startthick) / totalSegments
+                const stepSize = (endPosition - startPosition) / totalSegments;
+                const newstart = startthick + (thickstep * selectedIndex)
+                const newPositionu = startPosition + (stepSize * selectedIndex);
+                lround.style.transform = `translateX(${newPositionu}px)`;
+                const thick = document.querySelector('.thick')
+                thick.style.left= `${newstart}px`
+            });
+
+            const circle1 = document.querySelector('.circle1');
+            const circle2 = document.querySelector('.circle2');
+            const thick = document.querySelector('.thick');
+            
+            function updateWidth() {
+              const pos1 = circle1.getBoundingClientRect().left;
+              const pos2 = circle2.getBoundingClientRect().left;
+              const diff = Math.abs(pos1 - pos2);
+              thick.style.width = `${diff}px`;
+            
+              requestAnimationFrame(updateWidth);
+            }
+            updateWidth();            
+
+            document.querySelector('.min-select').addEventListener('change', filterByPriceRange);
+            document.querySelector('.max-select').addEventListener('change', filterByPriceRange);
+            function filterByPriceRange() {
+                const minSelect = document.querySelector('.min-select');
+                const maxSelect = document.querySelector('.max-select');
+                const container = document.querySelector('.right-dwn-container'); 
+
+                // Get the selected min and max values
+                const minValue = parseFloat(minSelect.value.replace(/[^0-9.-]+/g, "")) || 0;
+                const maxValue = parseFloat(maxSelect.value.replace(/[^0-9.-]+/g, "")) || Infinity;
+
+                // Loop through all elements and toggle visibility based on the price range
+                Array.from(container.children).forEach(el => {
+                    const price = parseFloat(el.querySelector('.apn').textContent.replace(/[^0-9.-]+/g, ""));
+                    if (price >= minValue && price <= maxValue) {
+                        el.style.display = '';  // Show the element
+                    } else {
+                        el.style.display = 'none';  // Hide the element
+                    }
+                });
+            }
+
+            // Create the main brand container
+            const brand = document.createElement('div');
+            brand.className = 'brand';
+            brand.innerHTML = `
                 <div class="brandtop">
                     <div class="bleft">${data.sidebar.brand}</div>
                     <img src="${data.sidebar.nex}">
@@ -171,24 +264,98 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                     <div class="bot2">${data.sidebar.more}</div>
                 </div>
-            `
+            `;
+
             const brandsContainer = brand.querySelector('.bot1');
             data.sidebar.brands.forEach(mobilebrand => {
-                const appleDiv = document.createElement('div');
-                appleDiv.className = 'apple';
-                appleDiv.innerHTML = `
+                const brdiv = document.createElement('div');
+                brdiv.className = 'mobrand';
+                brdiv.innerHTML = `
                     <label>
-                        <input type="checkbox">
+                        <input type="checkbox" value="${mobilebrand}">
                         <div class="appjus"></div>
                         <div class="kof">${mobilebrand}</div>
                     </label>
                 `;
-                brandsContainer.appendChild(appleDiv);
+                brandsContainer.appendChild(brdiv);
             });
-            top.append(brand)
+
+            top.append(brand);
+
+            // Handle nested brand loops
+            data.loop.forEach(item => {
+                const loop = document.createElement('div');
+                loop.className = 'brand';
+                loop.innerHTML = `
+                    <div class="brandtop">
+                        <div class="bleft">${item.title}</div>
+                        <img src="${data.sidebar.nex}">
+                    </div>
+                    <div class="brand-bot">
+                        <div class="bot1"></div>
+                    </div>
+                `;
+
+                const boto = loop.querySelector('.bot1');
+                item.sub.forEach(subItem => {
+                    const brdiv = document.createElement('div');
+                    brdiv.className = 'mobrand';
+                    brdiv.innerHTML = `
+                        <label>
+                            <input type="checkbox" value="${subItem}">
+                            <div class="appjus"></div>
+                            <div class="kof">${subItem}</div>
+                        </label>`;
+                    boto.append(brdiv);
+                });
+
+                top.append(loop);
+            });
+
+            // Filter Logic for Checkboxes
+            const checkboxes = document.querySelectorAll('.mobrand input[type="checkbox"]');
+            checkboxes.forEach(checkbox => {
+                checkbox.addEventListener('change', filterByBrand);
+            });
+
+            function filterByBrand() {
+                checkboxes.forEach(checkbox => {
+                    const appjus = checkbox.parentElement.querySelector('.appjus');
+                    if (checkbox.checked) {
+                        // Update the style and icon when checked
+                        appjus.innerHTML = `<img src="icons/check-solid.svg">`;
+                        appjus.style.backgroundColor = '#2874f0';
+                    } else {
+                        // Clear the icon and background when unchecked
+                        appjus.innerHTML = '';
+                        appjus.style.backgroundColor = '';
+                    }
+                });
+            
+                // Collect selected brands based on checked checkboxes
+                const selectedBrands = Array.from(checkboxes)
+                    .filter(checkbox => checkbox.checked)
+                    .map(checkbox => checkbox.parentElement.querySelector('.kof').textContent.trim().toLowerCase());
+            
+                // Loop through .right-dwn elements and toggle their visibility
+                Array.from(container.children).forEach(el => {
+                    const brandName = el.querySelector('.name').textContent.trim().toLowerCase();
+            
+                    // Check if any selected brand partially matches the brandName
+                    const matches = selectedBrands.some(brand => brandName.includes(brand));
+            
+                    if (selectedBrands.length === 0 || matches) {
+                        el.style.display = '';  // Show the element
+                    } else {
+                        el.style.display = 'none';  // Hide the element
+                    }
+                });
+            }
+            
+
+
             const searc = document.getElementById('searc')
             searc.src= data.header[0].sea
-
             const flip = document.createElement('div')
             flip.className='flip'
             flip.innerHTML=`
@@ -204,35 +371,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `
             top.append(flip)
-
-            data.loop.forEach(item => {
-                const loop = document.createElement('div')
-                loop.className='brand'
-                loop.innerHTML=`
-                    <div class="brandtop">
-                        <div class="bleft">${item.title}</div>
-                        <img src="${data.sidebar.nex}">
-                    </div>
-                    <div class="brand-bot">
-                        <div class="bot1"></div>
-                        </div>
-                    </div>
-                `
-                const boto = loop.querySelector('.bot1')
-                item.sub.forEach(subItems => {
-                    const apple = document.createElement('div')
-                    apple.className='apple'
-                    apple.innerHTML=`
-                        <label>
-                            <input type="checkbox">
-                            <div class="appjus"></div>
-                            <div class="kof">${subItems}</div>
-                        </label>`
-                    boto.append(apple)
-                })
-                top.append(loop)
-            })
-            
+                        
             const right = document.querySelector('.right')
             right.innerHTML = `
                 <div class="right-one">
@@ -275,29 +414,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 rightfi.append(spane)
             })
             
-            // Pagination logic
-            let currentPage = 1;
-            const itemsPerPage = 24;
-            const totalPages = Math.ceil(data.right.rightmain.length / itemsPerPage);
-            
-            function renderPage(page) {
-                const startIndex = (page - 1) * itemsPerPage;
-                const endIndex = startIndex + itemsPerPage;
-            
-                // Clear the right container of any previously rendered items
-                const rightDwnContainer = document.querySelector('.right-dwn-container');
-                if (rightDwnContainer) {
-                    rightDwnContainer.remove();
-                }
-            
-                const container = document.createElement('div')
+                const container = document.createElement('div');
                 container.className = 'right-dwn-container';
-            
-                // Generate main content in right-dwn for the current page
-                const itemsToRender = data.right.rightmain.slice(startIndex, endIndex);
-                itemsToRender.forEach(item => {
-                    const rightdwn = document.createElement('div')
-                    rightdwn.className = 'right-dwn'
+                data.right.rightmain.forEach(item => {
+                    const rightdwn = document.createElement('div');
+                    rightdwn.className = 'right-dwn';
                     rightdwn.innerHTML = `
                         <div class="rightdwn-sub">
                             <div class="right-pad">
@@ -352,30 +473,69 @@ document.addEventListener('DOMContentLoaded', () => {
                                 </a>
                             </div>
                         </div>
-                    `
+                    `;
             
-                    const ulli = rightdwn.querySelector('.ulli')
+                    const ulli = rightdwn.querySelector('.ulli');
                     item.li.forEach(listItem => {
-                        const uls = document.createElement('ul')
-                        uls.innerHTML = `<li>${listItem}</li>`
-                        ulli.append(uls)
-                    })
+                        const uls = document.createElement('ul');
+                        uls.innerHTML = `<li>${listItem}</li>`;
+                        ulli.append(uls);
+                    });
             
-                    container.append(rightdwn)
-                })
+                    container.append(rightdwn);
+                });
             
-                right.append(container)
-            }
             
-            // Initial render of the first page
-            renderPage(currentPage)
-            
-            // Pagination section (outside loop)
+                right.append(container);
+
+                const spanes = document.querySelectorAll('.spane');
+
+
+                if (spanes.length > 0) {
+                    // Store the original order of elements
+                    const originalOrder = Array.from(container.children);
+                
+                    // Sort by price: Low to High
+                    spanes[1].addEventListener('click', () => {
+                        const rightDwnElements = Array.from(container.children);
+                
+                        rightDwnElements.sort((a, b) => {
+                            const priceA = parseFloat(a.querySelector('.apn').textContent.replace(/[^0-9.-]+/g, ""));
+                            const priceB = parseFloat(b.querySelector('.apn').textContent.replace(/[^0-9.-]+/g, ""));
+                            return priceA - priceB; // Ascending order (low to high)
+                        });
+                
+                        container.innerHTML = ''; // Clear current elements
+                        rightDwnElements.forEach(el => container.append(el)); // Append sorted elements
+                    });
+                
+                    // Sort by price: High to Low
+                    spanes[2].addEventListener('click', () => {
+                        const rightDwnElements = Array.from(container.children);
+                
+                        rightDwnElements.sort((a, b) => {
+                            const priceA = parseFloat(a.querySelector('.apn').textContent.replace(/[^0-9.-]+/g, ""));
+                            const priceB = parseFloat(b.querySelector('.apn').textContent.replace(/[^0-9.-]+/g, ""));
+                            return priceB - priceA; // Descending order (high to low)
+                        });
+                
+                        container.innerHTML = ''; // Clear current elements
+                        rightDwnElements.forEach(el => container.append(el)); // Append sorted elements
+                    });
+                
+                    // Reset to original order on clicking spanes[0]
+                    spanes[0].addEventListener('click', () => {
+                        container.innerHTML = ''; // Clear current elements
+                        originalOrder.forEach(el => container.append(el)); // Append original elements
+                    });
+                }
+                
+        
             const page = document.createElement('div')
             page.className='page-cont'
             page.innerHTML = `
                 <div class="page-pad">
-                    <span>Page ${currentPage} of ${totalPages}</span>
+                    <span>Page 1 of 20</span>
                     <nav class="counter"></nav>
                     <span class="cyon"></span>
                 </div>
@@ -383,9 +543,7 @@ document.addEventListener('DOMContentLoaded', () => {
             right.append(page)
             
             const counter = document.querySelector('.counter')
-            for (let i = 1; i <= totalPages; i++) {
                 const appar = document.createElement('a')
-                appar.innerHTML = `${i}`
                 appar.href = "#"
                 appar.onclick = function(event) {
                     event.preventDefault()
@@ -394,7 +552,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     document.querySelector('.page-pad span').innerText = `Page ${currentPage} of ${totalPages}`
                 }
                 counter.append(appar)
-            }
             const footer = document.querySelector('.footer');
             footer.innerHTML = `
                 <div class="footer-sub">
@@ -438,14 +595,261 @@ document.addEventListener('DOMContentLoaded', () => {
                     rit.innerHTML = `<p>${subItem}</p>`;
                     sub.append(rit);
                 });
-
-                const soico = bowo.querySelector('.social-icons.');
-                item.sub.forEach(subItem => {
-                    const rit = document.createElement('div');
-                    rit.innerHTML = `<p>${subItem}</p>`;
-                    soico.append(rit);
-                });
             });
-            const socialIcons = document.querySelector('.social-icons')
+            const atpm = document.querySelector('.atpm')
+            atpm.innerHTML=`
+                <img src="${data.mobile.arrow}">
+            `
+            const btpm = document.querySelector('.btpm')
+            btpm.innerHTML=`<img src="${data.mobile.img}">`
+            const stpm = document.querySelector('.stpm')
+            stpm.innerHTML=`
+                <div><h1>${data.mobile.nob}</h1></div>
+            `
+            const ttpm = document.querySelector('.ttpm')
+            ttpm.innerHTML=`
+                <img src="${data.mobile.ttimg}" width='20px'>
+            `
+            const utpm = document.querySelector('.utpm')
+            utpm.innerHTML=`
+                <img src="${data.mobile.cart}">
+            `
+            const vtpm = document.querySelector('.vtpm')
+            vtpm.innerHTML=`
+                <span>${data.mobile.login}</span>
+            `
+            const toptwone = document.querySelector('.top21-sub')
+            toptwone.innerHTML=`
+                <img src="${data.mobile.sorter}">
+                <div class="bhj jot">${data.mobile.sort}</div>
+            `
+            const toptothr = document.querySelector('.top23-sub')
+            toptothr.innerHTML=`
+                <div class="juf jox">
+                    <img src="${data.mobile.filt}">
+                    <div class="bhj">${data.mobile.filter}</div>
+                </div>
+            `
+
+            const topto = document.querySelector('.top21');
+            topto.addEventListener('click', function () {
+                const contto = document.querySelector('.content2');
+                contto.style.backgroundColor = 'rgb(0, 0, 0)';
+                contto.style.opacity = '0.5';
+                contto.style.zIndex='1111';
+                let dropdownModel = document.querySelector('.dropdown-model');
+                if (!dropdownModel) {
+                    dropdownModel = document.createElement('div');
+                    dropdownModel.className = 'dropdown-model';
+                    dropdownModel.innerHTML = `
+                        <div>
+                            <div class="soort jot">${data.mobile.drop.sort}</div>
+                            <div class="sormid juf"></div>
+                            <div class-"juf">
+                                <div class="being juf">
+                                    <div class="besub">
+                                        <div class="fin jot">${data.mobile.drop.pop}</div>
+                                        <img src="">
+                                    </div>
+                                </div>
+                                <div class="being juf">
+                                    <div class="besub">
+                                        <div class="fin jot">${data.mobile.drop.low}</div>
+                                    </div>
+                                </div>
+                                <div class="being juf">
+                                    <div class="besub">
+                                        <div class="fin jot">${data.mobile.drop.high}</div>
+                                    </div>
+                                </div>
+                                <div class="being juf">
+                                    <div class="besub juf">
+                                        <div class="fin jot">${data.mobile.drop.new}</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    document.body.appendChild(dropdownModel);
+                }
+            
+                dropdownModel.style.display = dropdownModel.style.display === 'block' ? 'none' : 'block';
+            });
+            
+            document.addEventListener('click', function (event) {
+                const dropdownModel = document.querySelector('.dropdown-model');
+                if (dropdownModel && !topto.contains(event.target) && !dropdownModel.contains(event.target)) {
+                    dropdownModel.style.display = 'none';
+                    const contto = document.querySelector('.content2');
+                    contto.style.opacity = '1';
+                }
+            });
+            const topfg = document.querySelector('.top3fg')
+            data.mobile.topthree.forEach((item, index) => {
+                const djb = document.createElement('div')
+                djb.className = 'djb'
+                djb.innerHTML = `
+                    <div class="juf">
+                        <div class="juf huf">
+                            <div class="djb-sub juf">
+                                <div class="juf">
+                                    <div class="fgb juf">
+                                        <div class="vhs">
+                                            <img src="${item.img}">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="texting">
+                                    <div class="texting">
+                                        <div class="tjt jot">
+                                            <span class="gyk jot">${item.txt}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `
+                if (index === 1) {
+                    djb.classList.add('cvg')
+                }
+                topfg.append(djb)
+                if(index === 2){
+                    djb.classList.add('gbm')
+                }
+            })
+            const cgyujn = document.querySelector('.cgyujn')
+            data.right.rightmain.forEach(item => {
+                const rightdwn = document.createElement('div')
+                rightdwn.className = 'right-dwn'
+                rightdwn.innerHTML = `
+                    <div class="rightdwn-sub">
+                        <div class="right-pad">
+                            <a>
+                                <div class="rpadl">
+                                    <div class="rpdl1"><img src="${item.img}"></div>
+                                    <div class="rpdl2">
+                                        <span>
+                                            <label id="label1">
+                                                <input>
+                                                <div class="sung"></div>
+                                            </label>
+                                        </span>
+                                        <label id="label2"><span>${item.bot}</span></label>
+                                    </div>
+                                    <div class="rpdl3"><div class="rpd-sub"><img src="${item.heart}"></div></div>
+                                </div>
+                                <div class="rpadr">
+                                    <div class="rpadr1">
+                                        <div class="sponser">${item.head}</div>
+                                        <div class="name">${item.title}</div>
+                                        <div class="next">
+                                            <span class="rate">
+                                                <div>${item.rate}<img src="${item.star}"></div>
+                                            </span>
+                                            <span class="rating">${item.rating}</span>
+                                            <div class="assuimg"><img src="${data.right.assu}"></div>
+                                        </div>
+                                    </div>
+                                    <div class="rpadr2">
+                                        <div class="pad1">
+                                            <div class="pad1up">
+                                                <div class="apn">${item.price}</div>
+                                                <div class="bpn">${item.off}</div>
+                                                <div class="cpn"><span>${item.discount}</span></div>
+                                            </div>
+                                            <div class="pad2dwn"><div class="dwsub">${item.free}</div></div>
+                                        </div>
+                                        <div class="pad2"><img src="${item.flip}"></div>
+                                        <div class="pad3">
+                                            <div class="pad3-sub"><div class="airt">${item.airtel}</div></div>
+                                        </div>
+                                        <div class="pad4">
+                                            <div class="air-cont">
+                                                <div class="air">Upto</div>
+                                                <div class="air">${item.exchange}</div>
+                                                <div class="air">Off on Exchange</div>
+                                            </div>
+                                        </div>
+                                        <div class="pad5">${item.free}</div>
+                                        <div class="pad6">1 year warranty</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="ulli"></div>
+                        </div>
+                    </div>
+                `
+
+                const ulli = rightdwn.querySelector('.ulli')
+                item.li.forEach(listItem => {
+                    const uls = document.createElement('ul')
+                    uls.innerHTML = `<div class="syv"><li>${listItem}</div></li>`
+                    ulli.append(uls)
+                })
+        
+                cgyujn.append(rightdwn)
+            })     
+            const itemsPerPage = 24;
+            let currentPage = 1;
+            
+            const rightDwnElements = Array.from(container.children); // Get all right-dwn elements
+            const totalItems = rightDwnElements.length;
+            const totalPages = Math.ceil(totalItems / itemsPerPage);
+            
+            // Function to render the current page
+            function renderPage(page) {
+                const startIndex = (page - 1) * itemsPerPage;
+                const endIndex = startIndex + itemsPerPage;
+            
+                // Hide all elements initially
+                rightDwnElements.forEach(el => (el.style.display = 'none'));
+            
+                // Show elements for the current page
+                rightDwnElements.slice(startIndex, endIndex).forEach(el => (el.style.display = ''));
+            
+                updatePaginationControls(); // Update pagination controls after rendering
+            }
+            
+            // Function to update pagination controls
+            function updatePaginationControls() {
+                const paginationContainer = document.querySelector('.counter');
+                paginationContainer.innerHTML = ''; // Clear previous controls
+
+            
+                // Create individual page links
+                for (let i = 1; i <= totalPages; i++) {
+                    const pageLink = document.createElement('a');
+                    pageLink.href = '#';
+                    pageLink.textContent = `${i}`;
+                    pageLink.className = i === currentPage ? 'active' : '';
+                    pageLink.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        currentPage = i;
+                        renderPage(currentPage);
+                    });
+                    paginationContainer.appendChild(pageLink);
+                }
+            
+                // Update page info display
+                const pageInfo = document.querySelector('.page-cont span');
+                pageInfo.textContent = `Page ${currentPage} of ${totalPages}`;
+            }
+            
+            // Initial setup for the page display
+            page.className = 'page-cont';
+            page.innerHTML = `
+                <div class="page-pad">
+                    <span>Page 1 of ${totalPages}</span>
+                    <nav class="counter"></nav>
+                    <span class="cyon"></span>
+                </div>
+            `;
+            right.append(page);
+            
+            // Initial render
+            renderPage(currentPage);
+            
+                   
         })
 })

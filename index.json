@@ -11,7 +11,6 @@
             "selll": "Become a Seller",
             "more": "More",
             "dwn": "icons/header-arrow.svg",
-            "cartImg": "icons/cart.svg",
             "cart": "Cart",
             "sea": "icons/magnifying-glass-solid.svg"
         }
@@ -61,15 +60,14 @@
         "price": "PRICE",
         "brand": "BRAND" ,
         "min": "Min",
+        "max": "Max",
         "thou": "₹10000",
         "fiv": "₹15000",
         "twe": "₹20000",
         "thir": "₹30000",
         "to": "to",
-        "tho": "₹10000",
-        "fi": "₹15000",
-        "tw": "₹20000",
-        "thi": "₹30000",
+        "ten": "₹10000",
+        "ther": "₹30000+",
         "apple": "Apple",
         "sam": "SAMSUNG",
         "gog": "Google",
@@ -345,6 +343,7 @@
         }
     ],
     "right": {
+        "assu": "https://rukminim2.flixcart.com/www/150/40/promos/25/06/2024/71af54bd-9160-41ff-81cc-c55e534dedeb.png?q=90",
         "rightth": "Mobiles",
         "rightfo": "(Showing 1 – 24 products of 10,286 products)",
         "rightfi": "Sort By",
@@ -408,6 +407,31 @@
                 "exchange": "₹7,500"
             },
             {
+                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/x/m/u/-original-imah3zznyreazz3f.jpeg?q=70",
+                "bot": "Add to Compare",
+                "head": "Sponsored",
+                "title": "Google Pixel 9 Pro XL (Rose Quartz, 256 GB)",
+                "rate": "4.5",
+                "star": "icons/star-solid.svg",
+                "rating": "1,48,842 Ratings & 4,803 Reviews",
+                "rateimg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDov…1NC40MDQtMy4yMSAyLjg4Mi45NCA0LjI2eiIvPjwvc3ZnPg==",
+                "heart": "icons/heart-solid.svg",
+                "li": [
+                    "128 GB ROM",
+                    "15.49 cm (6.1 inch) Super Retina XDR Display",
+                    "48MP + 12MP | 12MP Front Camera",
+                    "A16 Bionic Chip, 6 Crore Processor Processor",
+                    "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
+                ],
+                "price": "1,24,999",
+                "off": "₹20,900",
+                "discount": "15% off",
+                "free": "Free delivery",
+                "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
+                "airtel": "Top Discount of the Sale",
+                "exchange": "₹10,950"
+            },
+            {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/m/e/3/-original-imah37gwn2xbvzhy.jpeg?q=70",
                 "bot": "Add to Compare",
                 "head": "Sponsored",
@@ -735,6 +759,18 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
+
+
+
+
+
+
+
+
+
+
+
+
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -1089,6 +1125,19 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
+
+
+
+
+
+
+
+
+
+
+
+
+
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -1443,6 +1492,21 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -1797,6 +1861,19 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
+
+
+
+
+
+
+
+
+
+
+
+
+
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -2151,6 +2228,27 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -2505,6 +2603,29 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -2859,6 +2980,29 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -3213,6 +3357,33 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -3262,7 +3433,7 @@
                 "discount": "23% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹7,950"
             },
             {
@@ -3287,7 +3458,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -3312,7 +3483,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -3337,7 +3508,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -3388,7 +3559,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -3414,7 +3585,7 @@
                 "discount": "17% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹13,250"
             },
             {
@@ -3439,7 +3610,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -3464,7 +3635,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -3489,7 +3660,7 @@
                 "discount": "22% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹8,450"
             },
             {
@@ -3514,7 +3685,7 @@
                 "discount": "53% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹24,700"
             },
             {
@@ -3539,7 +3710,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹10,950"
             },
             {
@@ -3564,9 +3735,37 @@
                 "discount": "19% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -3616,7 +3815,7 @@
                 "discount": "23% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹7,950"
             },
             {
@@ -3641,7 +3840,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -3666,7 +3865,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -3691,7 +3890,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -3742,7 +3941,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -3768,7 +3967,7 @@
                 "discount": "17% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹13,250"
             },
             {
@@ -3793,7 +3992,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -3818,7 +4017,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -3843,7 +4042,7 @@
                 "discount": "22% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹8,450"
             },
             {
@@ -3868,7 +4067,7 @@
                 "discount": "53% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹24,700"
             },
             {
@@ -3893,7 +4092,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹10,950"
             },
             {
@@ -3918,9 +4117,35 @@
                 "discount": "19% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -3970,7 +4195,7 @@
                 "discount": "23% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹7,950"
             },
             {
@@ -3995,7 +4220,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -4020,7 +4245,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -4045,7 +4270,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -4096,7 +4321,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -4122,7 +4347,7 @@
                 "discount": "17% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹13,250"
             },
             {
@@ -4147,7 +4372,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -4172,7 +4397,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -4197,7 +4422,7 @@
                 "discount": "22% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹8,450"
             },
             {
@@ -4222,7 +4447,7 @@
                 "discount": "53% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹24,700"
             },
             {
@@ -4247,7 +4472,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹10,950"
             },
             {
@@ -4272,9 +4497,36 @@
                 "discount": "19% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -4324,7 +4576,7 @@
                 "discount": "23% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹7,950"
             },
             {
@@ -4349,7 +4601,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -4374,7 +4626,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -4399,7 +4651,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -4450,7 +4702,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -4476,7 +4728,7 @@
                 "discount": "17% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹13,250"
             },
             {
@@ -4501,7 +4753,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -4526,7 +4778,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -4551,7 +4803,7 @@
                 "discount": "22% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹8,450"
             },
             {
@@ -4576,7 +4828,7 @@
                 "discount": "53% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹24,700"
             },
             {
@@ -4601,7 +4853,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹10,950"
             },
             {
@@ -4626,9 +4878,34 @@
                 "discount": "19% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -4678,7 +4955,7 @@
                 "discount": "23% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹7,950"
             },
             {
@@ -4703,7 +4980,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -4728,7 +5005,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -4753,7 +5030,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -4804,7 +5081,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -4830,7 +5107,7 @@
                 "discount": "17% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹13,250"
             },
             {
@@ -4855,7 +5132,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -4880,7 +5157,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -4905,7 +5182,7 @@
                 "discount": "22% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹8,450"
             },
             {
@@ -4930,7 +5207,7 @@
                 "discount": "53% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹24,700"
             },
             {
@@ -4955,7 +5232,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹10,950"
             },
             {
@@ -4980,9 +5257,33 @@
                 "discount": "19% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -5032,7 +5333,7 @@
                 "discount": "23% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹7,950"
             },
             {
@@ -5057,7 +5358,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -5082,7 +5383,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -5107,7 +5408,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -5158,7 +5459,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -5184,7 +5485,7 @@
                 "discount": "17% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹13,250"
             },
             {
@@ -5209,7 +5510,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -5234,7 +5535,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -5259,7 +5560,7 @@
                 "discount": "22% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹8,450"
             },
             {
@@ -5284,7 +5585,7 @@
                 "discount": "53% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹24,700"
             },
             {
@@ -5309,7 +5610,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹10,950"
             },
             {
@@ -5334,9 +5635,41 @@
                 "discount": "19% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -5386,7 +5719,7 @@
                 "discount": "23% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹7,950"
             },
             {
@@ -5411,7 +5744,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -5436,7 +5769,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -5461,7 +5794,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -5512,7 +5845,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -5538,7 +5871,7 @@
                 "discount": "17% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹13,250"
             },
             {
@@ -5563,7 +5896,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -5588,7 +5921,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -5613,7 +5946,7 @@
                 "discount": "22% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹8,450"
             },
             {
@@ -5638,7 +5971,7 @@
                 "discount": "53% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹24,700"
             },
             {
@@ -5663,7 +5996,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹10,950"
             },
             {
@@ -5688,9 +6021,27 @@
                 "discount": "19% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -5740,7 +6091,7 @@
                 "discount": "23% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹7,950"
             },
             {
@@ -5765,7 +6116,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -5790,7 +6141,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -5815,7 +6166,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -5866,7 +6217,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -5892,7 +6243,7 @@
                 "discount": "17% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹13,250"
             },
             {
@@ -5917,7 +6268,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -5942,7 +6293,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -5967,7 +6318,7 @@
                 "discount": "22% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹8,450"
             },
             {
@@ -5992,7 +6343,7 @@
                 "discount": "53% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹24,700"
             },
             {
@@ -6017,7 +6368,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹10,950"
             },
             {
@@ -6042,9 +6393,27 @@
                 "discount": "19% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -6094,7 +6463,7 @@
                 "discount": "23% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹7,950"
             },
             {
@@ -6119,7 +6488,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -6144,7 +6513,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -6169,7 +6538,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -6220,7 +6589,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -6246,7 +6615,7 @@
                 "discount": "17% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹13,250"
             },
             {
@@ -6271,7 +6640,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -6296,7 +6665,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -6321,7 +6690,7 @@
                 "discount": "22% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹8,450"
             },
             {
@@ -6346,7 +6715,7 @@
                 "discount": "53% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹24,700"
             },
             {
@@ -6371,7 +6740,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹10,950"
             },
             {
@@ -6396,9 +6765,34 @@
                 "discount": "19% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -6448,7 +6842,7 @@
                 "discount": "23% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹7,950"
             },
             {
@@ -6473,7 +6867,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -6498,7 +6892,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -6523,7 +6917,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -6574,7 +6968,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -6600,7 +6994,7 @@
                 "discount": "17% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹13,250"
             },
             {
@@ -6625,7 +7019,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -6650,7 +7044,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -6675,7 +7069,7 @@
                 "discount": "22% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹8,450"
             },
             {
@@ -6700,7 +7094,7 @@
                 "discount": "53% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹24,700"
             },
             {
@@ -6725,7 +7119,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹10,950"
             },
             {
@@ -6750,9 +7144,25 @@
                 "discount": "19% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -6802,7 +7212,7 @@
                 "discount": "23% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹7,950"
             },
             {
@@ -6827,7 +7237,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -6852,7 +7262,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -6877,7 +7287,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -6928,7 +7338,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -6954,7 +7364,7 @@
                 "discount": "17% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹13,250"
             },
             {
@@ -6979,7 +7389,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -7004,7 +7414,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -7029,7 +7439,7 @@
                 "discount": "22% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹8,450"
             },
             {
@@ -7054,7 +7464,7 @@
                 "discount": "53% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹24,700"
             },
             {
@@ -7079,7 +7489,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹10,950"
             },
             {
@@ -7104,9 +7514,32 @@
                 "discount": "19% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -7156,7 +7589,7 @@
                 "discount": "23% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹7,950"
             },
             {
@@ -7181,7 +7614,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -7206,7 +7639,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -7231,7 +7664,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -7282,7 +7715,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -7308,7 +7741,7 @@
                 "discount": "17% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹13,250"
             },
             {
@@ -7333,7 +7766,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -7358,7 +7791,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -7383,7 +7816,7 @@
                 "discount": "22% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹8,450"
             },
             {
@@ -7408,7 +7841,7 @@
                 "discount": "53% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹24,700"
             },
             {
@@ -7433,7 +7866,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹10,950"
             },
             {
@@ -7458,9 +7891,32 @@
                 "discount": "19% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -7510,7 +7966,7 @@
                 "discount": "23% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹7,950"
             },
             {
@@ -7535,7 +7991,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -7560,7 +8016,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -7585,7 +8041,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -7636,7 +8092,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -7662,7 +8118,7 @@
                 "discount": "17% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹13,250"
             },
             {
@@ -7687,7 +8143,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -7712,7 +8168,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -7737,7 +8193,7 @@
                 "discount": "22% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹8,450"
             },
             {
@@ -7762,7 +8218,7 @@
                 "discount": "53% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹24,700"
             },
             {
@@ -7787,7 +8243,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹10,950"
             },
             {
@@ -7812,9 +8268,27 @@
                 "discount": "19% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -7864,7 +8338,7 @@
                 "discount": "23% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹7,950"
             },
             {
@@ -7889,7 +8363,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -7914,7 +8388,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -7939,7 +8413,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -7990,7 +8464,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -8016,7 +8490,7 @@
                 "discount": "17% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹13,250"
             },
             {
@@ -8041,7 +8515,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -8066,7 +8540,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -8091,7 +8565,7 @@
                 "discount": "22% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹8,450"
             },
             {
@@ -8116,7 +8590,7 @@
                 "discount": "53% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹24,700"
             },
             {
@@ -8141,7 +8615,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹10,950"
             },
             {
@@ -8166,9 +8640,34 @@
                 "discount": "19% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -8218,7 +8717,7 @@
                 "discount": "23% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹7,950"
             },
             {
@@ -8243,7 +8742,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -8268,7 +8767,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -8293,7 +8792,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -8344,7 +8843,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -8370,7 +8869,7 @@
                 "discount": "17% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹13,250"
             },
             {
@@ -8395,7 +8894,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -8445,7 +8944,7 @@
                 "discount": "22% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹8,450"
             },
             {
@@ -8470,7 +8969,7 @@
                 "discount": "53% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹24,700"
             },
             {
@@ -8495,7 +8994,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹10,950"
             },
             {
@@ -8520,9 +9019,39 @@
                 "discount": "19% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -8572,7 +9101,7 @@
                 "discount": "23% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹7,950"
             },
             {
@@ -8597,7 +9126,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -8622,7 +9151,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -8647,7 +9176,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -8698,7 +9227,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -8724,7 +9253,7 @@
                 "discount": "17% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹13,250"
             },
             {
@@ -8749,7 +9278,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -8774,7 +9303,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -8799,7 +9328,7 @@
                 "discount": "22% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹8,450"
             },
             {
@@ -8824,7 +9353,7 @@
                 "discount": "53% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹24,700"
             },
             {
@@ -8849,7 +9378,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹10,950"
             },
             {
@@ -8874,9 +9403,43 @@
                 "discount": "19% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -8926,7 +9489,7 @@
                 "discount": "23% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹7,950"
             },
             {
@@ -8951,7 +9514,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -8976,7 +9539,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -9001,7 +9564,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -9052,7 +9615,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -9078,7 +9641,7 @@
                 "discount": "17% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹13,250"
             },
             {
@@ -9103,7 +9666,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -9128,7 +9691,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -9153,7 +9716,7 @@
                 "discount": "22% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹8,450"
             },
             {
@@ -9178,7 +9741,7 @@
                 "discount": "53% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹24,700"
             },
             {
@@ -9203,7 +9766,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹10,950"
             },
             {
@@ -9228,9 +9791,34 @@
                 "discount": "19% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -9280,7 +9868,7 @@
                 "discount": "23% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹7,950"
             },
             {
@@ -9305,7 +9893,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -9330,7 +9918,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -9355,7 +9943,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -9406,7 +9994,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -9432,7 +10020,7 @@
                 "discount": "17% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹13,250"
             },
             {
@@ -9457,7 +10045,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -9482,7 +10070,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -9507,7 +10095,7 @@
                 "discount": "22% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹8,450"
             },
             {
@@ -9532,7 +10120,7 @@
                 "discount": "53% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹24,700"
             },
             {
@@ -9557,7 +10145,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹10,950"
             },
             {
@@ -9582,9 +10170,35 @@
                 "discount": "19% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -9634,7 +10248,7 @@
                 "discount": "23% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹7,950"
             },
             {
@@ -9659,7 +10273,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -9684,7 +10298,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -9709,7 +10323,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -9760,7 +10374,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -9786,7 +10400,7 @@
                 "discount": "17% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹13,250"
             },
             {
@@ -9811,7 +10425,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -9836,7 +10450,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -9861,7 +10475,7 @@
                 "discount": "22% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹8,450"
             },
             {
@@ -9886,7 +10500,7 @@
                 "discount": "53% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹24,700"
             },
             {
@@ -9911,7 +10525,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹10,950"
             },
             {
@@ -9936,9 +10550,30 @@
                 "discount": "19% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -9988,7 +10623,7 @@
                 "discount": "23% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹7,950"
             },
             {
@@ -10013,7 +10648,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -10038,7 +10673,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -10063,7 +10698,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -10114,7 +10749,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -10140,7 +10775,7 @@
                 "discount": "17% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹13,250"
             },
             {
@@ -10165,7 +10800,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -10190,7 +10825,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -10215,7 +10850,7 @@
                 "discount": "22% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹8,450"
             },
             {
@@ -10240,7 +10875,7 @@
                 "discount": "53% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹24,700"
             },
             {
@@ -10265,7 +10900,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹10,950"
             },
             {
@@ -10290,9 +10925,33 @@
                 "discount": "19% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -10342,7 +11001,7 @@
                 "discount": "23% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹7,950"
             },
             {
@@ -10367,7 +11026,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -10392,7 +11051,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -10417,7 +11076,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -10468,7 +11127,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -10494,7 +11153,7 @@
                 "discount": "17% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹13,250"
             },
             {
@@ -10519,7 +11178,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -10544,7 +11203,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -10569,7 +11228,7 @@
                 "discount": "22% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹8,450"
             },
             {
@@ -10594,7 +11253,7 @@
                 "discount": "53% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹24,700"
             },
             {
@@ -10619,7 +11278,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹10,950"
             },
             {
@@ -10644,9 +11303,30 @@
                 "discount": "19% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -10696,7 +11376,7 @@
                 "discount": "23% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹7,950"
             },
             {
@@ -10721,7 +11401,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -10746,7 +11426,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -10771,7 +11451,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -10822,7 +11502,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -10848,7 +11528,7 @@
                 "discount": "17% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹13,250"
             },
             {
@@ -10873,7 +11553,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -10898,7 +11578,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -10923,7 +11603,7 @@
                 "discount": "22% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹8,450"
             },
             {
@@ -10948,7 +11628,7 @@
                 "discount": "53% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹24,700"
             },
             {
@@ -10973,7 +11653,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹10,950"
             },
             {
@@ -10998,9 +11678,28 @@
                 "discount": "19% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -11050,7 +11749,7 @@
                 "discount": "23% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹7,950"
             },
             {
@@ -11075,7 +11774,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -11100,7 +11799,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -11125,7 +11824,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -11176,7 +11875,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -11202,7 +11901,7 @@
                 "discount": "17% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹13,250"
             },
             {
@@ -11227,7 +11926,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -11252,7 +11951,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -11277,7 +11976,7 @@
                 "discount": "22% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹8,450"
             },
             {
@@ -11302,7 +12001,7 @@
                 "discount": "53% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹24,700"
             },
             {
@@ -11327,7 +12026,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹10,950"
             },
             {
@@ -11352,9 +12051,33 @@
                 "discount": "19% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -11404,7 +12127,7 @@
                 "discount": "23% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹7,950"
             },
             {
@@ -11429,7 +12152,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -11454,7 +12177,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -11479,7 +12202,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -11530,7 +12253,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -11556,7 +12279,7 @@
                 "discount": "17% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹13,250"
             },
             {
@@ -11581,7 +12304,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -11606,7 +12329,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -11631,7 +12354,7 @@
                 "discount": "22% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹8,450"
             },
             {
@@ -11656,7 +12379,7 @@
                 "discount": "53% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹24,700"
             },
             {
@@ -11681,7 +12404,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹10,950"
             },
             {
@@ -11706,14 +12429,40 @@
                 "discount": "19% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             {
-                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
+                "img": "https://rukminim2.flixcart.com/image/312/312/kflftzk0/mobile/h/q/u/google-pixel-4a-ga02099-in-original-imafwyzmnfxzmv5q.jpeg?q=70",
                 "bot": "Add to Compare",
                 "head": "Sponsored",
-                "title": "SAMSUNG Galaxy A14 5G (Dark Red, 128 GB)",
+                "title": "Google Pixel 4a (Just Black, 128 GB)",
                 "rate": "4.2",
                 "rating": "14,2777 Ratings & 515 Reviews",
                 "heart": "icons/heart-solid.svg",
@@ -11727,7 +12476,7 @@
                     "Exynos 1330 Processor",
                     "1 Year Manufacturer Warranty for Device and 6 Months Manufacturer Warranty for In-Box Accessories"
                 ],
-                "price": "₹10,999",
+                "price": "₹20,999",
                 "off": "₹15,499",
                 "discount": "29% off",
                 "free": "Free delivery",
@@ -11736,10 +12485,10 @@
                 "exchange": "₹7,500"
             },
             {
-                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/m/e/3/-original-imah37gwn2xbvzhy.jpeg?q=70",
+                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile-refurbished-fk/q/u/y/-original-imahfywtmhgnxemg.jpeg?q=70",
                 "bot": "Add to Compare",
                 "head": "Sponsored",
-                "title": "OPPO K12x 5G with 45W SUPERVOOC Charger In-The-Box (Breeze Blue, 128 GB)",
+                "title": "(Refurbished) Google Pixel 7 (Lemongrass, 128 GB)",
                 "rate": "4.5",
                 "star": "icons/star-solid.svg",
                 "rating": "53,821 Ratings & 1,665 Reviews",
@@ -11753,19 +12502,19 @@
                     "Dimensity 6300 Processor",
                     "1 Year Manufacturer Warranty for Device and 6 Months Manufacturer Warranty for Inbox Accessories"
                 ],
-                "price": "₹12,999",
+                "price": "₹33,999",
                 "off": "₹16,999",
                 "discount": "23% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹7,950"
             },
             {
-                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/h/d/9/-original-imagtc2qzgnnuhxh.jpeg?q=70",
+                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/b/p/s/-original-imaggsuemmztbghp.jpeg?q=70",
                 "bot": "Add to Compare",
                 "head": "Sponsored",
-                "title": "Apple iPhone 15 (Black, 128 GB)",
+                "title": "Google Pixel 7 Pro (Snow, 128 GB)",
                 "rate": "4.6",
                 "star": "icons/star-solid.svg",
                 "rating": "1,48,842 Ratings & 4,803 Reviews",
@@ -11778,12 +12527,12 @@
                     "A16 Bionic Chip, 6 Crore Processor Processor",
                     "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
                 ],
-                "price": "₹58,999",
+                "price": "₹44,999",
                 "off": "₹69,900",
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -11808,7 +12557,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -11833,7 +12582,7 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
@@ -11884,14 +12633,14 @@
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
-                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/i/k/l/edge-50-fusion-pb300001in-motorola-original-imahywzpfd2jh9ep.jpeg?q=70",
+                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/i/a/r/-original-imagtrf9qm3dufq9.jpeg?q=70",
                 "bot": "Add to Compare",
                 "head": "Sponsored",
-                "title": "Motorola Edge 50 Fusion (Hot Pink, 256 GB)",
+                "title": "Google Pixel 7a (Coral, 128 GB)",
                 "rate": "4.5",
                 "star": "icons/star-solid.svg",
                 "rating": "57,379 Ratings & 3,843 Reviews",
@@ -11905,20 +12654,20 @@
                     "7s Gen 2 Processor",
                     "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
                 ],
-                "price": "₹22,999",
+                "price": "₹29,999",
                 "off": "₹27,999",
                 "discount": "17% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹13,250"
             },
             {
-                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/i/p/l/-original-imah2fjcxjdjykpc.jpeg?q=70",
+                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/r/s/6/-original-imagtwh4bzret3a8.jpeg?q=70",
                 "bot": "Add to Compare",
                 "head": "Sponsored",
                 "star": "icons/star-solid.svg",
-                "title": "Motorola G85 5G (Cobalt Blue, 128 GB)",
+                "title": "Google Pixel 8 (Rose, 128 GB)",
                 "rate": "4.5",
                 "rating": "1,48,842 Ratings & 4,803 Reviews",
                 "rateimg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDov…1NC40MDQtMy4yMSAyLjg4Mi45NCA0LjI2eiIvPjwvc3ZnPg==",
@@ -11930,19 +12679,19 @@
                     "A16 Bionic Chip, 6 Crore Processor Processor",
                     "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
                 ],
-                "price": "16,999",
+                "price": "38,999",
                 "off": "₹69,900",
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
-                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/5/t/j/edge-50-fusion-pb300002in-motorola-original-imahywzrfagkuyxx.jpeg?q=70",
+                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/e/y/n/pixel-8a-ga04432-in-google-original-imahyn3mqzdbzywg.jpeg?q=70",
                 "bot": "Add to Compare",
                 "head": "Sponsored",
-                "title": "Motorola G85 5G (Marshmallow Blue, 128 GB)",
+                "title": "Google Pixel 8a (Obsidian, 128 GB)",
                 "rate": "4.5",
                 "star": "icons/star-solid.svg",
                 "rating": "1,48,842 Ratings & 4,803 Reviews",
@@ -11955,19 +12704,19 @@
                     "A16 Bionic Chip, 6 Crore Processor Processor",
                     "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
                 ],
-                "price": "20,999",
+                "price": "43,999",
                 "off": "₹69,900",
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
-                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/z/s/y/-original-imah4smtchzwyhgs.jpeg?q=70",
+                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/t/u/m/-original-imaggsuehy3nyj3b.jpeg?q=70",
                 "bot": "Add to Compare",
                 "head": "Sponsored",
-                "title": "REDMI 13 5G (Black Diamond, 128 GB)",
+                "title": "Google Pixel 7 Pro (Obsidian, 128 GB)",
                 "rate": "4.5",
                 "star": "icons/star-solid.svg",
                 "rating": "1,48,842 Ratings & 4,803 Reviews",
@@ -11980,19 +12729,19 @@
                     "A16 Bionic Chip, 6 Crore Processor Processor",
                     "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
                 ],
-                "price": "13,999",
+                "price": "44,999",
                 "off": "₹17,999",
                 "discount": "22% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹8,450"
             },
             {
-                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/y/8/i/-original-imah4zp7fgtezhsz.jpeg?q=70",
+                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/e/f/m/-original-imagtwh5rbhf7ngh.jpeg?q=70",
                 "bot": "Add to Compare",
                 "head": "Sponsored",
-                "title": "SAMSUNG Galaxy S23 5G (Cream, 128 GB)",
+                "title": "Google Pixel 8 Pro (Obsidian, 128 GB)",
                 "rate": "4.5",
                 "star": "icons/star-solid.svg",
                 "rating": "1,48,842 Ratings & 4,803 Reviews",
@@ -12005,19 +12754,19 @@
                     "A16 Bionic Chip, 6 Crore Processor Processor",
                     "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
                 ],
-                "price": "41,999",
+                "price": "86,999",
                 "off": "₹89,999",
                 "discount": "53% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹24,700"
             },
             {
-                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/n/l/u/-original-imah2fjd7wfd9ksh.jpeg?q=70",
+                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/x/m/u/-original-imah3zznyreazz3f.jpeg?q=70",
                 "bot": "Add to Compare",
                 "head": "Sponsored",
-                "title": "Motorola G85 5G (Olive Green, 128 GB)",
+                "title": "Google Pixel 9 Pro XL (Rose Quartz, 256 GB)",
                 "rate": "4.5",
                 "star": "icons/star-solid.svg",
                 "rating": "1,48,842 Ratings & 4,803 Reviews",
@@ -12030,19 +12779,19 @@
                     "A16 Bionic Chip, 6 Crore Processor Processor",
                     "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
                 ],
-                "price": "16,999",
+                "price": "1,24,999",
                 "off": "₹20,900",
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹10,950"
             },
             {
-                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/e/l/q/-original-imah4k2srpwzpgpa.jpeg?q=70",
+                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/q/b/g/-original-imah3zznscgh3fgk.jpeg?q=70",
                 "bot": "Add to Compare",
                 "head": "Sponsored",
-                "title": "Motorola Edge 50 Fusion (Forest Green, 128 GB)",
+                "title": "Google Pixel 9 Pro XL (Porcelain, 256 GB)",
                 "rate": "4.5",
                 "star": "icons/star-solid.svg",
                 "rating": "1,48,842 Ratings & 4,803 Reviews",
@@ -12055,20 +12804,38 @@
                     "A16 Bionic Chip, 6 Crore Processor Processor",
                     "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
                 ],
-                "price": "20,999",
+                "price": "1,24,999",
                 "off": "₹25,999",
                 "discount": "19% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             {
-                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
+                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/c/v/p/-original-imah4jyfcjgcghqs.jpeg?q=70",
                 "bot": "Add to Compare",
                 "head": "Sponsored",
                 "star": "icons/star-solid.svg",
-                "title": "SAMSUNG Galaxy A14 5G (Dark Red, 128 GB)",
+                "title": "Apple iPhone 16 (Pink, 512 GB)",
                 "rate": "4.2",
                 "rating": "14,2777 Ratings & 515 Reviews",
                 "rateimg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDov…1NC40MDQtMy4yMSAyLjg4Mi45NCA0LjI2eiIvPjwvc3ZnPg==",
@@ -12081,7 +12848,7 @@
                     "Exynos 1330 Processor",
                     "1 Year Manufacturer Warranty for Device and 6 Months Manufacturer Warranty for In-Box Accessories"
                 ],
-                "price": "₹10,999",
+                "price": "₹1,09,900",
                 "off": "₹15,499",
                 "discount": "29% off",
                 "free": "Free delivery",
@@ -12090,10 +12857,10 @@
                 "exchange": "₹7,500"
             },
             {
-                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/m/e/3/-original-imah37gwn2xbvzhy.jpeg?q=70",
+                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/f/x/n/-original-imah2nd6sbpfgn29.jpeg?q=70",
                 "bot": "Add to Compare",
                 "head": "Sponsored",
-                "title": "OPPO K12x 5G with 45W SUPERVOOC Charger In-The-Box (Breeze Blue, 128 GB)",
+                "title": "SAMSUNG Galaxy Z Flip6 5G (Blue, 512 GB)",
                 "rate": "4.5",
                 "star": "icons/star-solid.svg",
                 "rating": "53,821 Ratings & 1,665 Reviews",
@@ -12107,19 +12874,19 @@
                     "Dimensity 6300 Processor",
                     "1 Year Manufacturer Warranty for Device and 6 Months Manufacturer Warranty for Inbox Accessories"
                 ],
-                "price": "₹12,999",
+                "price": "₹1,21,999",
                 "off": "₹16,999",
                 "discount": "23% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹7,950"
             },
             {
-                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/h/d/9/-original-imagtc2qzgnnuhxh.jpeg?q=70",
+                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/d/y/v/-original-imah2nd5rxcgq34u.jpeg?q=70",
                 "bot": "Add to Compare",
                 "head": "Sponsored",
-                "title": "Apple iPhone 15 (Black, 128 GB)",
+                "title": "SAMSUNG Galaxy Z Fold6 5G (Navy, 256 GB)",
                 "rate": "4.6",
                 "star": "icons/star-solid.svg",
                 "rating": "1,48,842 Ratings & 4,803 Reviews",
@@ -12132,20 +12899,20 @@
                     "A16 Bionic Chip, 6 Crore Processor Processor",
                     "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
                 ],
-                "price": "₹58,999",
+                "price": "₹1,64,999",
                 "off": "₹69,900",
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
-                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/a/c/k/-original-imagtc5fuzkvczr7.jpeg?q=70",
+                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/v/j/i/-original-imah3zzne5zjgqey.jpeg?q=70",
                 "bot": "Add to Compare",
                 "head": "Sponsored",
                 "star": "icons/star-solid.svg",
-                "title": "Apple iPhone 15 (Pink, 128 GB)",
+                "title": "Google Pixel 9 Pro Fold (Obsidian, 256 GB)",
                 "rate": "4.6",
                 "rating": "1,48,842 Ratings & 4,803 Reviews",
                 "rateimg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDov…1NC40MDQtMy4yMSAyLjg4Mi45NCA0LjI2eiIvPjwvc3ZnPg==",
@@ -12157,20 +12924,20 @@
                     "A16 Bionic Chip, 6 Crore Processor Processor",
                     "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
                 ],
-                "price": "₹58,999",
+                "price": "₹1,72,999",
                 "off": "₹69,900",
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
-                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/j/z/3/-original-imagtc5fqyz8tu4c.jpeg?q=70",
+                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/a/r/5/-original-imagtc3kcmph6ax5.jpeg?q=70",
                 "bot": "Add to Compare",
                 "head": "Sponsored",
                 "star": "icons/star-solid.svg",
-                "title": "Apple iPhone 15 (Green, 128 GB)",
+                "title": "Apple iPhone 15 Pro Max (Black Titanium, 1 TB)",
                 "rate": "4.6",
                 "rating": "1,48,842 Ratings & 4,803 Reviews",
                 "rateimg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDov…1NC40MDQtMy4yMSAyLjg4Mi45NCA0LjI2eiIvPjwvc3ZnPg==",
@@ -12182,19 +12949,19 @@
                     "A16 Bionic Chip, 6 Crore Processor Processor",
                     "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
                 ],
-                "price": "₹58,999",
+                "price": "₹1,40,999",
                 "off": "₹69,900",
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
-                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/y/2/o/-original-imah4sss2hjckcdk.jpeg?q=70",
+                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/s/1/1/-original-imah4th3zsmsvcfu.jpeg?q=70",
                 "bot": "Add to Compare",
                 "head": "Sponsored",
-                "title": "SAMSUNG Galaxy A14 5G (Black, 128 GB)",
+                "title": "vivo X Fold3 Pro (Lunar White, 512 GB)",
                 "rate": "4.2",
                 "star": "icons/star-solid.svg",
                 "rating": "14,2777 Ratings & 515 Reviews",
@@ -12208,7 +12975,7 @@
                     "Exynos 1330 Processor",
                     "1 Year Manufacturer Warranty for Device and 6 Months Manufacturer Warranty for In-Box Accessories"
                 ],
-                "price": "₹10,999",
+                "price": "₹1,59,999",
                 "off": "₹15,499",
                 "discount": "29% off",
                 "free": "Free delivery",
@@ -12217,11 +12984,11 @@
                 "exchange": "₹7,500"
             },
             {
-                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/k/l/l/-original-imagtc5fz9spysyk.jpeg?q=70",
+                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/i/u/n/-original-imah2nd5uvhcde6g.jpeg?q=70",
                 "bot": "Add to Compare",
                 "head": "Sponsored",
-                "title": "Apple iPhone 15 (Blue, 128 GB)",
-                "rate": "4.6",
+                "title": "SAMSUNG Galaxy Z Fold6 5G (Pink, 256 GB)",
+                "rate": "4.1",
                 "star": "icons/star-solid.svg",
                 "rating": "1,48,842 Ratings & 4,803 Reviews",
                 "rateimg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDov…1NC40MDQtMy4yMSAyLjg4Mi45NCA0LjI2eiIvPjwvc3ZnPg==",
@@ -12233,21 +13000,21 @@
                     "A16 Bionic Chip, 6 Crore Processor Processor",
                     "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
                 ],
-                "price": "₹58,999",
+                "price": "₹1,64,999",
                 "off": "₹69,900",
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
-                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/i/k/l/edge-50-fusion-pb300001in-motorola-original-imahywzpfd2jh9ep.jpeg?q=70",
+                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/d/y/v/-original-imah2nd5rxcgq34u.jpeg?q=70",
                 "bot": "Add to Compare",
                 "head": "Sponsored",
                 "star": "icons/star-solid.svg",
-                "title": "Motorola Edge 50 Fusion (Hot Pink, 256 GB)",
-                "rate": "4.5",
+                "title": "SAMSUNG Galaxy Z Fold6 5G (Navy, 256 GB)",
+                "rate": "4.1",
                 "rating": "57,379 Ratings & 3,843 Reviews",
                 "rateimg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDov…1NC40MDQtMy4yMSAyLjg4Mi45NCA0LjI2eiIvPjwvc3ZnPg==",
                 "heart": "icons/heart-solid.svg",
@@ -12259,20 +13026,20 @@
                     "7s Gen 2 Processor",
                     "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
                 ],
-                "price": "₹22,999",
+                "price": "₹1,64,999",
                 "off": "₹27,999",
                 "discount": "17% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹13,250"
             },
             {
-                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/i/p/l/-original-imah2fjcxjdjykpc.jpeg?q=70",
+                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/y/n/j/-original-imagztmgmmshbqga.jpeg?q=70",
                 "bot": "Add to Compare",
                 "head": "Sponsored",
                 "star": "icons/star-solid.svg",
-                "title": "Motorola G85 5G (Cobalt Blue, 128 GB)",
+                "title": "SAMSUNG Galaxy Z Fold5 (Phantom Black, 512 GB)",
                 "rate": "4.5",
                 "rating": "1,48,842 Ratings & 4,803 Reviews",
                 "rateimg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDov…1NC40MDQtMy4yMSAyLjg4Mi45NCA0LjI2eiIvPjwvc3ZnPg==",
@@ -12284,22 +13051,22 @@
                     "A16 Bionic Chip, 6 Crore Processor Processor",
                     "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
                 ],
-                "price": "16,999",
+                "price": "₹1,64,999",
                 "off": "₹69,900",
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
-                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/5/t/j/edge-50-fusion-pb300002in-motorola-original-imahywzrfagkuyxx.jpeg?q=70",
+                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/x/5/2/-original-imah4jywyma4j8vy.jpeg?q=70",
                 "bot": "Add to Compare",
                 "head": "Sponsored",
                 "star": "icons/star-solid.svg",
-                "title": "Motorola G85 5G (Marshmallow Blue, 128 GB)",
-                "rate": "4.5",
-                "rating": "1,48,842 Ratings & 4,803 Reviews",
+                "title": "Apple iPhone 16 Pro (White Titanium, 1 TB)",
+                "rate": "4.8",
+                "rating": "174 Ratings & 7 Reviews",
                 "rateimg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDov…1NC40MDQtMy4yMSAyLjg4Mi45NCA0LjI2eiIvPjwvc3ZnPg==",
                 "heart": "icons/heart-solid.svg",
                 "li": [
@@ -12309,21 +13076,21 @@
                     "A16 Bionic Chip, 6 Crore Processor Processor",
                     "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
                 ],
-                "price": "20,999",
+                "price": "₹1,69,900",
                 "off": "₹69,900",
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
-                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/z/s/y/-original-imah4smtchzwyhgs.jpeg?q=70",
+                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/e/x/e/-original-imah4jyw4fpqe7ru.jpeg?q=70",
                 "bot": "Add to Compare",
                 "head": "Sponsored",
                 "star": "icons/star-solid.svg",
-                "title": "REDMI 13 5G (Black Diamond, 128 GB)",
-                "rate": "4.5",
+                "title": "Apple iPhone 16 Pro (Black Titanium, 1 TB)",
+                "rate": "4.8",
                 "rating": "1,48,842 Ratings & 4,803 Reviews",
                 "heart": "icons/heart-solid.svg",
                 "rateimg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDov…1NC40MDQtMy4yMSAyLjg4Mi45NCA0LjI2eiIvPjwvc3ZnPg==",
@@ -12334,191 +13101,225 @@
                     "A16 Bionic Chip, 6 Crore Processor Processor",
                     "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
                 ],
-                "price": "13,999",
+                "price": "₹1,69,900",
                 "off": "₹17,999",
                 "discount": "22% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹8,450"
             },
             {
-                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/y/8/i/-original-imah4zp7fgtezhsz.jpeg?q=70",
+                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/v/j/i/-original-imah3zzne5zjgqey.jpeg?q=70",
                 "bot": "Add to Compare",
                 "head": "Sponsored",
                 "star": "icons/star-solid.svg",
-                "title": "SAMSUNG Galaxy S23 5G (Cream, 128 GB)",
+                "title": "Google Pixel 9 Pro Fold (Obsidian, 256 GB)",
                 "rate": "4.5",
-                "rating": "1,48,842 Ratings & 4,803 Reviews",
+                "rating": "67 Ratings & 4 Reviews",
                 "heart": "icons/heart-solid.svg",
                 "rateimg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDov…1NC40MDQtMy4yMSAyLjg4Mi45NCA0LjI2eiIvPjwvc3ZnPg==",
                 "li": [
-                    "128 GB ROM",
-                    "15.49 cm (6.1 inch) Super Retina XDR Display",
-                    "48MP + 12MP | 12MP Front Camera",
-                    "A16 Bionic Chip, 6 Crore Processor Processor",
-                    "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
+                    "16 GB RAM | 256 GB ROM",
+                    "16.0 cm (6.3 inch) Display",
+                    "48MP + 10.5MP + 10.8MP | 10MP Front Camera",
+                    "4650 mAh Battery",
+                    "Google Tenser G4 Processor",
+                    "1 Year Domestic Warranty"
                 ],
-                "price": "41,999",
+                "price": "₹1,72,999",
                 "off": "₹89,999",
                 "discount": "53% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹24,700"
             },
             {
-                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/n/l/u/-original-imah2fjd7wfd9ksh.jpeg?q=70",
+                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/v/b/j/-original-imah2nd53uhb7b6s.jpeg?q=70",
                 "bot": "Add to Compare",
                 "head": "Sponsored",
                 "star": "icons/star-solid.svg",
-                "title": "Motorola G85 5G (Olive Green, 128 GB)",
-                "rate": "4.5",
+                "title": "SAMSUNG Galaxy Z Fold6 5G (Silver Shadow, 512 GB)",
+                "rate": "4.1",
                 "heart": "icons/heart-solid.svg",
-                "rating": "1,48,842 Ratings & 4,803 Reviews",
+                "rating": "60 Ratings & 5 Reviews",
                 "rateimg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDov…1NC40MDQtMy4yMSAyLjg4Mi45NCA0LjI2eiIvPjwvc3ZnPg==",
                 "li": [
-                    "128 GB ROM",
-                    "15.49 cm (6.1 inch) Super Retina XDR Display",
-                    "48MP + 12MP | 12MP Front Camera",
-                    "A16 Bionic Chip, 6 Crore Processor Processor",
-                    "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
+                    "12 GB RAM | 512 GB ROM",
+                    "19.3 cm (7.6 inch) QXGA+ Display",
+                    "50MP + 12MP | 10MP Front Camera",
+                    "4400 mAh Lithium ion Battery",
+                    "Snapdragon 8 Gen 3 Processor",
+                    "1 Year Manufacturer Warranty for Device and 6 Months for In-Box Accessories"
                 ],
-                "price": "16,999",
+                "price": "₹16,999",
                 "off": "₹20,900",
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹10,950"
             },
             {
-                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/e/l/q/-original-imah4k2srpwzpgpa.jpeg?q=70",
+                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/u/8/w/-original-imah4jz6qhwgukgt.jpeg?q=70",
                 "bot": "Add to Compare",
                 "head": "Sponsored",
-                "title": "Motorola Edge 50 Fusion (Forest Green, 128 GB)",
-                "rate": "4.5",
+                "title": "Apple iPhone 16 Pro Max (Natural Titanium, 1 TB)",
+                "rate": "4.6",
                 "star": "icons/star-solid.svg",
                 "heart": "icons/heart-solid.svg",
-                "rating": "1,48,842 Ratings & 4,803 Reviews",
+                "rating": "122 Ratings & 5 Reviews",
                 "rateimg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDov…1NC40MDQtMy4yMSAyLjg4Mi45NCA0LjI2eiIvPjwvc3ZnPg==",
                 "li": [
-                    "128 GB ROM",
-                    "15.49 cm (6.1 inch) Super Retina XDR Display",
-                    "48MP + 12MP | 12MP Front Camera",
-                    "A16 Bionic Chip, 6 Crore Processor Processor",
+                    "1 TB ROM",
+                    "17.53 cm (6.9 inch) Super Retina XDR Display",
+                    "48MP + 48MP + 12MP | 12MP Front Camera",
+                    "A18 Pro Chip, 6 Core Processor Processor",
                     "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
                 ],
-                "price": "20,999",
+                "price": "₹1,84,900",
                 "off": "₹25,999",
                 "discount": "19% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             {
-                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
+                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/x/m/h/h312-h312-hotline-original-imah4ybzkcywyggc.jpeg?q=70",
                 "bot": "Add to Compare",
                 "head": "Sponsored",
-                "title": "SAMSUNG Galaxy A14 5G (Dark Red, 128 GB)",
-                "rate": "4.2",
+                "title": "HOTLINE H312",
+                "rate": "3.3",
                 "star": "icons/star-solid.svg",
                 "heart": "icons/heart-solid.svg",
-                "rating": "14,2777 Ratings & 515 Reviews",
+                "rating": "992 Ratings & 74 Reviews",
                 "rateimg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDov…1NC40MDQtMy4yMSAyLjg4Mi45NCA0LjI2eiIvPjwvc3ZnPg==",
                 "li": [
-                    "4 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
-                    "16.76 cm (6.6 inch) Full HD+ Display",
-                    "50MP + 2MP + 2MP | 13MP Front Camera",
-                    "5000 mAh Lithium Ion Battery",
-                    "Exynos 1330 Processor",
-                    "1 Year Manufacturer Warranty for Device and 6 Months Manufacturer Warranty for In-Box Accessories"
+                    "32 MB RAM | 32 MB ROM",
+                    "4.57 cm (1.8 inch) Display",
+                    "0.3MP Rear Camera",
+                    "1000 mAh Battery",
+                    "The Hotline Mobiles has 3 Months Manufacture’s Warranty & after Warranty period we would like to help our customers with the best possible service under low expenses"
                 ],
-                "price": "₹10,999",
-                "off": "₹15,499",
-                "discount": "29% off",
+                "price": "₹590",
+                "off": "₹999",
+                "discount": "40% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
                 "airtel": "Extra ₹750  off with Airtel offer",
                 "exchange": "₹7,500"
             },
             {
-                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/m/e/3/-original-imah37gwn2xbvzhy.jpeg?q=70",
+                "img": "https://rukminim2.flixcart.com/image/312/312/ku2zjww0/mobile/f/e/k/super-2-super-2-jmax-original-imag7ae7jfdbfthz.jpeg?q=70",
                 "bot": "Add to Compare",
                 "head": "Sponsored",
-                "title": "OPPO K12x 5G with 45W SUPERVOOC Charger In-The-Box (Breeze Blue, 128 GB)",
-                "rate": "4.5",
+                "title": "Jmax Super 2",
+                "rate": "3.3",
                 "star": "icons/star-solid.svg",
                 "heart": "icons/heart-solid.svg",
-                "rating": "53,821 Ratings & 1,665 Reviews",
+                "rating": "182 Ratings & 26 Reviews",
                 "rateimg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDov…1NC40MDQtMy4yMSAyLjg4Mi45NCA0LjI2eiIvPjwvc3ZnPg==",
                 "li": [
-                    "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
-                    "16.94 cm (6.67 inch) HD Display",
-                    "32MP + 2MP | 8MP Front Camera",
-                    "5100 mAh Battery",
-                    "Dimensity 6300 Processor",
-                    "1 Year Manufacturer Warranty for Device and 6 Months Manufacturer Warranty for Inbox Accessories"
+                    "32 MB RAM | 32 MB ROM",
+                    "4.57 cm (1.8 inch) Display",
+                    "0.3MP Rear Camera",
+                    "1100 mAh Battery",
+                    "Domestic Warranty"
                 ],
-                "price": "₹12,999",
-                "off": "₹16,999",
-                "discount": "23% off",
+                "price": "₹584",
+                "off": "₹1,349",
+                "discount": "56% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹7,950"
             },
             {
-                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/h/d/9/-original-imagtc2qzgnnuhxh.jpeg?q=70",
+                "img": "https://rukminim2.flixcart.com/image/312/312/kfikya80/mobile/e/w/q/iair-d3-d3-original-imafvymcxnxydvqh.jpeg?q=70",
                 "bot": "Add to Compare",
                 "head": "Sponsored",
-                "title": "Apple iPhone 15 (Black, 128 GB)",
-                "rate": "4.6",
+                "title": "IAIR Basic Feature Dual Sim Mobile Phone with 1000mAh Battery, 1.77 inch Display Screen, 0.8 mp Camera...",
+                "rate": "2.6",
                 "star": "icons/star-solid.svg",
                 "heart": "icons/heart-solid.svg",
                 "rating": "1,48,842 Ratings & 4,803 Reviews",
                 "rateimg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDov…1NC40MDQtMy4yMSAyLjg4Mi45NCA0LjI2eiIvPjwvc3ZnPg==",
                 "li": [
-                    "128 GB ROM",
-                    "15.49 cm (6.1 inch) Super Retina XDR Display",
-                    "48MP + 12MP | 12MP Front Camera",
-                    "A16 Bionic Chip, 6 Crore Processor Processor",
-                    "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
+                    "0 MB ROM | Expandable Upto 32 GB",
+                    "4.5 cm (1.77 inch) Display",
+                    "0.8MP Rear Camera",
+                    "1000 mAh Battery",
+                    "1 Year Brand Replacement Warranty"
                 ],
-                "price": "₹58,999",
-                "off": "₹69,900",
-                "discount": "15% off",
+                "price": "₹566",
+                "off": "₹1,499",
+                "discount": "62% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             },
             {
-                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/a/c/k/-original-imagtc5fuzkvczr7.jpeg?q=70",
+                "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/e/a/l/310-310-taraa-original-imah5ff9mkxfmenu.jpeg?q=70",
                 "bot": "Add to Compare",
                 "head": "Sponsored",
-                "title": "Apple iPhone 15 (Pink, 128 GB)",
-                "rate": "4.6",
+                "title": "TARA A 310",
+                "rate": "2.8",
                 "star": "icons/star-solid.svg",
                 "heart": "icons/heart-solid.svg",
-                "rating": "1,48,842 Ratings & 4,803 Reviews",
+                "rating": "40 Ratings & 3 Reviews",
                 "rateimg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDov…1NC40MDQtMy4yMSAyLjg4Mi45NCA0LjI2eiIvPjwvc3ZnPg==",
                 "li": [
-                    "128 GB ROM",
-                    "15.49 cm (6.1 inch) Super Retina XDR Display",
-                    "48MP + 12MP | 12MP Front Camera",
-                    "A16 Bionic Chip, 6 Crore Processor Processor",
-                    "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
+                    "32 MB RAM | 32 MB ROM",
+                    "4.5 cm (1.77 inch) Display",
+                    "0.3MP Rear Camera",
+                    "1100 mAh Battery",
+                    "1 Year Manufacturer Warranty"
                 ],
-                "price": "₹58,999",
+                "price": "0",
                 "off": "₹69,900",
                 "discount": "15% off",
                 "free": "Free delivery",
                 "flip": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
-                "airtel": "Save extra with combo offers",
+                "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         ],
         "ntx": "NEXT",
         "found": "Did you find what you were looking for?",
@@ -12594,5 +13395,39 @@
                 "Telephone: 044-45614700 / 044-67415800"
             ]
         }
-    ]
+    ],
+    "mobile": {
+        "nob": "Mobiles",
+        "hij": "shjk",
+        "arrow": "icons/arrow-left-solid.svg",
+        "img": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/logo_lite-ea579c.png",
+        "ttimg": "icons/glass-black.svg",
+        "cart": "icons/cart-shopping-solid.svg",
+        "login": "Login",
+        "sorter": "icons/arrow-down-wide-short-solid.svg",
+        "sort": "Sort",
+        "filt": "icons/filter.svg",
+        "filter": "Filter",
+        "topthree": [
+            {
+                "img": "https://rukminim1.flixcart.com/www/70/70/promos/08/10/2024/87306873-6f2e-4c75-a077-c48c0bc30115.png?q=90",
+                "txt": "Top Sale<br> Deals "
+            },
+            {
+                "img": "https://rukminim1.flixcart.com/www/70/70/promos/13/10/2022/9f35831d-1207-45a3-8bff-808c06d045d3.png?q=90",
+                "txt": "5G "
+            },
+            {
+                "img": "https://rukminim1.flixcart.com/www/70/70/promos/31/05/2023/a8b4d164-3eaf-4156-acf5-44c9db07daa5.png?q=90",
+                "txt": "Rs. 15000 - <br>Rs. 20000 "
+            }
+        ],
+        "drop": {
+            "sort": "SORT BY",
+            "pop": "Popularity",
+            "low": "Price -- Low to High",
+            "high": "Price -- High to Low",
+            "new": "Newest First"
+        }
+    }
 }
