@@ -767,6 +767,15 @@ document.addEventListener('DOMContentLoaded', () => {
                                     bord.innerHTML = '';
                                     bord.style.backgroundColor = '';
                                 }
+
+                                const drpc = document.querySelector('.dropdwn-cont')
+                                const contl = document.querySelector('.cont2');        
+                                const dr3r = document.querySelector('.dr3r')
+                                dr3r.addEventListener('click', () => {
+                                    contl.style.display = 'block';
+                                    drpc.style.display = 'none';
+                                })
+            
                             }
                         });
                     }
