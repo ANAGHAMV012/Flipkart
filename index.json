@@ -342,269 +342,6 @@
             ]
         }
     ],
-    "looping": [
-        {
-            "sub": [
-                "Rs.10000 and Below",
-                "Rs.10000 - Rs.15000",
-                "Rs.15000 - Rs.20000",
-                "Rs.20000 - Rs.30000",
-                "Rs.30000 and Above"
-            ]
-        },
-        {
-            "sub": [
-                "Apple",
-                "SAMSUNG",
-                "Google",
-                "MOTOROLA",
-                "vivo",
-                "OPPO",
-                "Infinix",
-                "Nothing",
-                "POCO",
-                "realme"
-            ]
-        },
-        {
-            "sub": [
-                "F-Assured"
-            ]
-        },
-        {
-            "sub": [
-                "4★ & above",
-                "3★ & above"
-            ]
-        },
-        {
-            "sub": ["GST Invoice Available"]
-        },
-        {
-            "sub": [
-                "4GB",
-                "3GB",
-                "2GB",
-                "1GB and Below",
-                "8 GB and Above",
-                "6 GB",
-                "6 GB Above",
-                "Lessthan512MB"
-            ]
-        },
-        {
-            "sub": [
-                "256 GB & Above",
-                "128 - 255.9 GB",
-                "64 - 127.9 GB",
-                "32 - 63.9 GB",
-                "16 - 31.9 GB",
-                "8 - 15.9 GB",
-                "4 - 7.9 GB",
-                "2 GB - 3.9 GB",
-                "1 GB - 1.9 GB",
-                "Less than 1 GB",
-                "256 GB Above"
-            ]
-        },
-        {
-            "sub": [
-                "1000 - 1999 mAh",
-                "1000-1999mAh",
-                "2000 - 2999 mAh",
-                "3000 - 3999 mAh",
-                "4000 - 4999 mAh",
-                "5000 - 5999 mAh",
-                "5000 mAh Above",
-                "6000 mAh & Above",
-                "Less than 1000 mAh"
-            ]
-        },
-        {
-            "sub": [
-                "5.7 - 5.9 inch",
-                "5.5 - 5.6 inch",
-                "5.2 - 5.4 inch",
-                "5 - 5.1 inch",
-                "4.5 - 4.9 inch",
-                "4 - 4.4 inch",
-                "3.5 - 3.9 inch",
-                "3 - 3.4 inch",
-                "Less than 3 inch",
-                "6.4 inch & Above",
-                "6 - 6.3 inch",
-                "6 inch above"
-            ]
-        },
-        {
-            "sub": [
-                "5 - 7.9 MP",
-                "Below 5 MP",
-                "8 - 11.9 MP",
-                "12 - 12.9 MP",
-                "12 - 15.9 MP",
-                "13 - 15.9 MP",
-                "16 - 20.9 MP",
-                "21 - 31.9 MP",
-                "21 MP Above",
-                "32 - 47.9 MP",
-                "48 - 63.9 MP",
-                "64 MP & Above"
-            ]
-        },
-        {
-            "sub": [
-                "12 - 12.9 MP",
-                "12 - 15.9 MP",
-                "13 - 15.9 MP",
-                "16 - 20.9 MP",
-                "21 MP Above",
-                "21 MP & Above",
-                "5 - 7.9 MP",
-                "8 - 11.9 MP",
-                "Below 5 MP"
-            ]
-        },
-        {
-            "sub": [
-                "AMD",
-                "Apple",
-                "ARM",
-                "Exynos",
-                "Google",
-                "HiSilicon",
-                "Huawei",
-                "Intel",
-                "Mediatek",
-                "NVIDIA",
-                "Qualcomm",
-                "RDA",
-                "Snapdragon",
-                "Spreadtrum",
-                "Unisoc"
-            ]
-        },
-        {
-            "sub": [
-                "Big Storage",
-                "Higher Performance",
-                "Long-Lasting Battery",
-                "Selfie Camera"
-            ]
-        },
-        {
-            "sub": [
-                "Full HD",
-                "Full HD+",
-                "Full HD+ AMOLED Display",
-                "Full HD+ E3 Super AMOLED Display",
-                "Full HD+ Super AMOLED Display",
-                "FWVGA"
-            ]
-        },
-        {
-            "sub": [
-                "Android",
-                "Blackberry",
-                "iOS",
-                "KaiOS",
-                "Symbian",
-                "Tizen",
-                "Windows"
-            ]
-        },
-        {
-            "sub": [
-                "2G",
-                "3G",
-                "4G",
-                "4G VOLTE",
-                "5G"
-            ]
-        },
-        {
-            "sub": [
-                "Dual Sim",
-                "Dual Sim(Nano + eSIM)",
-                "Dual Sim(Physical + eSIM)",
-                "Four Sim",
-                "Single Sim",
-                "Triple Sim"
-            ]
-        },
-        {
-            "title": "offers",
-            "sub": [
-                "Buy More, Save More",
-                "No Cost EMI",
-                "Special Price"
-            ]
-        },
-        {
-            "sub": [
-                "WiFi",
-                "HD Recording",
-                "FM Player",
-                "Music Player",
-                "NFC",
-                "Bluetooth",
-                "USB",
-                "GPRS"
-            ]
-        },
-        {
-            "sub": [
-                "Smartphones",
-                "Feature Phones"
-            ]
-        },
-        {
-            "sub": [
-                "Dual Core",
-                "Hexa Core",
-                "Octa Core",
-                "Quad Core",
-                "Single Core"
-            ]
-        },
-        {
-            "sub": [
-                "Exclude Out of Stock"
-            ]
-        },
-        {
-            "sub": [
-                "50% or more",
-                "40% or more",
-                "30% or more",
-                "20% or more",
-                "10% or more"
-            ]
-        },
-        {
-            "sub": [
-                "Android Q",
-                "Anna",
-                "Belle",
-                "Eclair",
-                "Froyo",
-                "Gingerbread"
-            ]
-        },
-        {
-            "sub": [
-                "1.5 - 1.9 GHz",
-                "2 - 2.1 GHz",
-                "2 - 2.5 GHz",
-                "2.2 - 2.4 GHz",
-                "2.5 & Above",
-                "2.5 GHz Above",
-                "Below 1.5 GHz",
-                "Less than 900 MHz",
-                "Lessthan900MHz"
-            ]
-        }
-    ],
     "right": {
         "assu": "https://rukminim2.flixcart.com/www/150/40/promos/25/06/2024/71af54bd-9160-41ff-81cc-c55e534dedeb.png?q=90",
         "rightth": "Mobiles",
@@ -1022,18 +759,6 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
-
-
-
-
-
-
-
-
-
-
-
-
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -1388,19 +1113,6 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
-
-
-
-
-
-
-
-
-
-
-
-
-
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -1755,21 +1467,6 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -2124,19 +1821,6 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
-
-
-
-
-
-
-
-
-
-
-
-
-
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -2491,27 +2175,6 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -2866,29 +2529,6 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -3243,29 +2883,6 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -3620,33 +3237,6 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -4001,34 +3591,6 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -4383,32 +3945,6 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -4763,33 +4299,6 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -5144,31 +4653,6 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -5523,30 +5007,6 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -5901,38 +5361,6 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -6287,24 +5715,6 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -6659,24 +6069,6 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -7031,31 +6423,6 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -7410,22 +6777,6 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -7780,29 +7131,6 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -8157,29 +7485,6 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -8534,24 +7839,6 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -8906,31 +8193,6 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -9285,36 +8547,6 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -9669,40 +8901,6 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -10057,31 +9255,6 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -10436,32 +9609,6 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -10816,27 +9963,6 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -11191,30 +10317,6 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -11569,27 +10671,6 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -11944,25 +11025,6 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -12317,30 +11379,6 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -12695,32 +11733,6 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/kflftzk0/mobile/h/q/u/google-pixel-4a-ga02099-in-original-imafwyzmnfxzmv5q.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -13075,24 +12087,6 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/c/v/p/-original-imah4jyfcjgcghqs.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -13449,26 +12443,6 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹12,950"
             },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             {
                 "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/x/m/h/h312-h312-hotline-original-imah4ybzkcywyggc.jpeg?q=70",
                 "bot": "Add to Compare",
@@ -13569,20 +12543,6 @@
                 "airtel": "Top Discount of the Sale",
                 "exchange": "₹32,950"
             }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         ],
         "ntx": "NEXT",
         "found": "Did you find what you were looking for?",
@@ -13745,6 +12705,243 @@
                 "Nothing",
                 "POCO",
                 "realme"
+            ]
+        },
+        {
+            "title": [
+                "F-Assured"
+            ]
+        },
+        {
+            "title": [
+                "4★ & above",
+                "3★ & above"
+            ]
+        },
+        {
+            "title": ["GST Invoice Available"]
+        },
+        {
+            "title": [
+                "4GB",
+                "3GB",
+                "2GB",
+                "1GB and Below",
+                "8 GB and Above",
+                "6 GB",
+                "6 GB Above",
+                "Lessthan512MB"
+            ]
+        },
+        {
+            "title": [
+                "256 GB & Above",
+                "128 - 255.9 GB",
+                "64 - 127.9 GB",
+                "32 - 63.9 GB",
+                "16 - 31.9 GB",
+                "8 - 15.9 GB",
+                "4 - 7.9 GB",
+                "2 GB - 3.9 GB",
+                "1 GB - 1.9 GB",
+                "Less than 1 GB",
+                "256 GB Above"
+            ]
+        },
+        {
+            "title": [
+                "1000 - 1999 mAh",
+                "1000-1999mAh",
+                "2000 - 2999 mAh",
+                "3000 - 3999 mAh",
+                "4000 - 4999 mAh",
+                "5000 - 5999 mAh",
+                "5000 mAh Above",
+                "6000 mAh & Above",
+                "Less than 1000 mAh"
+            ]
+        },
+        {
+            "title": [
+                "5.7 - 5.9 inch",
+                "5.5 - 5.6 inch",
+                "5.2 - 5.4 inch",
+                "5 - 5.1 inch",
+                "4.5 - 4.9 inch",
+                "4 - 4.4 inch",
+                "3.5 - 3.9 inch",
+                "3 - 3.4 inch",
+                "Less than 3 inch",
+                "6.4 inch & Above",
+                "6 - 6.3 inch",
+                "6 inch above"
+            ]
+        },
+        {
+            "title": [
+                "5 - 7.9 MP",
+                "Below 5 MP",
+                "8 - 11.9 MP",
+                "12 - 12.9 MP",
+                "12 - 15.9 MP",
+                "13 - 15.9 MP",
+                "16 - 20.9 MP",
+                "21 - 31.9 MP",
+                "21 MP Above",
+                "32 - 47.9 MP",
+                "48 - 63.9 MP",
+                "64 MP & Above"
+            ]
+        },
+        {
+            "title": [
+                "12 - 12.9 MP",
+                "12 - 15.9 MP",
+                "13 - 15.9 MP",
+                "16 - 20.9 MP",
+                "21 MP Above",
+                "21 MP & Above",
+                "5 - 7.9 MP",
+                "8 - 11.9 MP",
+                "Below 5 MP"
+            ]
+        },
+        {
+            "title": [
+                "AMD",
+                "Apple",
+                "ARM",
+                "Exynos",
+                "Google",
+                "HiSilicon",
+                "Huawei",
+                "Intel",
+                "Mediatek",
+                "NVIDIA",
+                "Qualcomm",
+                "RDA",
+                "Snapdragon",
+                "Spreadtrum",
+                "Unisoc"
+            ]
+        },
+        {
+            "title": [
+                "Big Storage",
+                "Higher Performance",
+                "Long-Lasting Battery",
+                "Selfie Camera"
+            ]
+        },
+        {
+            "title": [
+                "Full HD",
+                "Full HD+",
+                "Full HD+ AMOLED Display",
+                "Full HD+ E3 Super AMOLED Display",
+                "Full HD+ Super AMOLED Display",
+                "FWVGA"
+            ]
+        },
+        {
+            "title": [
+                "Android",
+                "Blackberry",
+                "iOS",
+                "KaiOS",
+                "Symbian",
+                "Tizen",
+                "Windows"
+            ]
+        },
+        {
+            "title": [
+                "2G",
+                "3G",
+                "4G",
+                "4G VOLTE",
+                "5G"
+            ]
+        },
+        {
+            "title": [
+                "Dual Sim",
+                "Dual Sim(Nano + eSIM)",
+                "Dual Sim(Physical + eSIM)",
+                "Four Sim",
+                "Single Sim",
+                "Triple Sim"
+            ]
+        },
+        {
+            "title": [
+                "Buy More, Save More",
+                "No Cost EMI",
+                "Special Price"
+            ]
+        },
+        {
+            "title": [
+                "WiFi",
+                "HD Recording",
+                "FM Player",
+                "Music Player",
+                "NFC",
+                "Bluetooth",
+                "USB",
+                "GPRS"
+            ]
+        },
+        {
+            "title": [
+                "Smartphones",
+                "Feature Phones"
+            ]
+        },
+        {
+            "title": [
+                "Dual Core",
+                "Hexa Core",
+                "Octa Core",
+                "Quad Core",
+                "Single Core"
+            ]
+        },
+        {
+            "title": [
+                "Exclude Out of Stock"
+            ]
+        },
+        {
+            "title": [
+                "50% or more",
+                "40% or more",
+                "30% or more",
+                "20% or more",
+                "10% or more"
+            ]
+        },
+        {
+            "title": [
+                "Android Q",
+                "Anna",
+                "Belle",
+                "Eclair",
+                "Froyo",
+                "Gingerbread"
+            ]
+        },
+        {
+            "title": [
+                "1.5 - 1.9 GHz",
+                "2 - 2.1 GHz",
+                "2 - 2.5 GHz",
+                "2.2 - 2.4 GHz",
+                "2.5 & Above",
+                "2.5 GHz Above",
+                "Below 1.5 GHz",
+                "Less than 900 MHz",
+                "Lessthan900MHz"
             ]
         }
     ]

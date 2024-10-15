@@ -154,7 +154,6 @@ document.addEventListener('DOMContentLoaded', () => {
             </span>
             `
             top.appendChild(price)
-            
             document.addEventListener('DOMContentLoaded', function () {
                 const options = [...maxSelect.options].map(option => option.value);  
                 const selectedIndex = options.indexOf(defaultValue);
@@ -165,7 +164,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 const newPosition = startPosition + (stepSize * selectedIndex);
                 rround.style.transform = `translateX(${newPosition}px)`;
             });
-            
             document.querySelector('.max-select').addEventListener('change', function () {
                 const rround = document.querySelector('.rround');
                 const maxSelect = document.querySelector('.max-select');
@@ -179,7 +177,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 const newPosition = startPosition + (stepSize * selectedIndex);
                 rround.style.transform = `translateX(${newPosition}px)`;
             });
-
             document.addEventListener('DOMContentLoaded', function () {
                 const options = [...minSelect.options].map(option => option.value);  
                 const selectedIndex = options.indexOf(defaultValue);
@@ -190,7 +187,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 const newPositionu = startPositionl + (stepSizei * selectedIndex);
                 lround.style.transform = `translateX(${newPositionu}px)`;
             });
-            
             document.querySelector('.min-select').addEventListener('change', function () {
                 const lround = document.querySelector('.lround');
                 const minSelect = document.querySelector('.min-select');
@@ -210,44 +206,34 @@ document.addEventListener('DOMContentLoaded', () => {
                 const thick = document.querySelector('.thick')
                 thick.style.left= `${newstart}px`
             });
-
             const circle1 = document.querySelector('.circle1');
             const circle2 = document.querySelector('.circle2');
             const thick = document.querySelector('.thick');
-            
             function updateWidth() {
               const pos1 = circle1.getBoundingClientRect().left;
               const pos2 = circle2.getBoundingClientRect().left;
               const diff = Math.abs(pos1 - pos2);
               thick.style.width = `${diff}px`;
-            
               requestAnimationFrame(updateWidth);
             }
             updateWidth();            
-
             document.querySelector('.min-select').addEventListener('change', filterByPriceRange);
             document.querySelector('.max-select').addEventListener('change', filterByPriceRange);
             function filterByPriceRange() {
                 const minSelect = document.querySelector('.min-select');
                 const maxSelect = document.querySelector('.max-select');
                 const container = document.querySelector('.right-dwn-container'); 
-
-                // Get the selected min and max values
                 const minValue = parseFloat(minSelect.value.replace(/[^0-9.-]+/g, "")) || 0;
                 const maxValue = parseFloat(maxSelect.value.replace(/[^0-9.-]+/g, "")) || Infinity;
-
-                // Loop through all elements and toggle visibility based on the price range
                 Array.from(container.children).forEach(el => {
                     const price = parseFloat(el.querySelector('.apn').textContent.replace(/[^0-9.-]+/g, ""));
                     if (price >= minValue && price <= maxValue) {
-                        el.style.display = '';  // Show the element
+                        el.style.display = '';
                     } else {
-                        el.style.display = 'none';  // Hide the element
+                        el.style.display = 'none';
                     }
                 });
             }
-
-            // Create the main brand container
             const brand = document.createElement('div');
             brand.className = 'brand';
             brand.innerHTML = `
@@ -265,7 +251,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="bot2">${data.sidebar.more}</div>
                 </div>
             `;
-
             const brandsContainer = brand.querySelector('.bot1');
             data.sidebar.brands.forEach(mobilebrand => {
                 const brdiv = document.createElement('div');
@@ -279,10 +264,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 `;
                 brandsContainer.appendChild(brdiv);
             });
-
             top.append(brand);
-
-            // Handle nested brand loops
             data.loop.forEach(item => {
                 const loop = document.createElement('div');
                 loop.className = 'brand';
@@ -295,7 +277,6 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div class="bot1"></div>
                     </div>
                 `;
-
                 const boto = loop.querySelector('.bot1');
                 item.sub.forEach(subItem => {
                     const brdiv = document.createElement('div');
@@ -308,53 +289,40 @@ document.addEventListener('DOMContentLoaded', () => {
                         </label>`;
                     boto.append(brdiv);
                 });
-
                 top.append(loop);
             });
-
-            // Filter Logic for Checkboxes
             const checkboxes = document.querySelectorAll('.mobrand input[type="checkbox"]');
             checkboxes.forEach(checkbox => {
                 checkbox.addEventListener('change', filterByBrand);
             });
-
             function filterByBrand() {
                 let currentPage = 1
                 checkboxes.forEach(checkbox => {
                     const appjus = checkbox.parentElement.querySelector('.appjus');
                     if (checkbox.checked) {
-                        // Update the style and icon when checked
                         appjus.innerHTML = `<img src="icons/check-solid.svg">`;
                         appjus.style.backgroundColor = '#2874f0';
                     } else {
-                        // Clear the icon and background when unchecked
                         appjus.innerHTML = '';
                         appjus.style.backgroundColor = '';
                     }
-                });
-            
-                // Collect selected brands based on checked checkboxes
+                });         
                 const selectedBrands = Array.from(checkboxes)
                     .filter(checkbox => checkbox.checked)
                     .map(checkbox => checkbox.parentElement.querySelector('.kof').textContent.trim().toLowerCase());
             
-                // Loop through .right-dwn elements and toggle their visibility
                 Array.from(container.children).forEach(el => {
                     const brandName = el.querySelector('.name').textContent.trim().toLowerCase();
             
-                    // Check if any selected brand partially matches the brandName
                     const matches = selectedBrands.some(brand => brandName.includes(brand));
             
                     if (selectedBrands.length === 0 || matches) {
-                        el.style.display = '';  // Show the element
+                        el.style.display = '';
                     } else {
-                        el.style.display = 'none';  // Hide the element
+                        el.style.display = 'none';
                     }
                 });
             }
-            
-
-
             const searc = document.getElementById('searc')
             searc.src= data.header[0].sea
             const flip = document.createElement('div')
@@ -371,8 +339,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <span>${data.sidebar.ques}</span>
                 </div>
             `
-            top.append(flip)
-                        
+            top.append(flip)                   
             const right = document.querySelector('.right')
             right.innerHTML = `
                 <div class="right-one">
@@ -384,8 +351,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <span>${data.right.rightfi}</span>
                     </div>
                 </div>
-            `
-            
+            `            
             const righto = document.querySelector('.right1')
             data.right.righto.forEach(item => {
                 const onedi = document.createElement('div')
@@ -395,18 +361,15 @@ document.addEventListener('DOMContentLoaded', () => {
                     <img src="${item.arrow}">
                 `
                 righto.append(onedi)
-            })
-            
+            })          
             const righttw = document.querySelector('.right2')
             data.right.righttw.forEach(item => {
                 const twodi = document.createElement('a')
                 twodi.innerHTML = `${item}`
                 righttw.append(twodi)
-            })
-            
+            })         
             const br = document.createElement('br')
-            righttw.append(br)
-            
+            righttw.append(br) 
             const rightfi = document.querySelector('.right5')
             data.right.rightfive.forEach(item => {
                 const spane = document.createElement('div')
@@ -414,7 +377,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 spane.innerHTML = `${item}`
                 rightfi.append(spane)
             })
-            
                 const container = document.createElement('div');
                 container.className = 'right-dwn-container';
                 data.right.rightmain.forEach(item => {
@@ -475,25 +437,18 @@ document.addEventListener('DOMContentLoaded', () => {
                             </div>
                         </div>
                     `;
-            
                     const ulli = rightdwn.querySelector('.ulli');
                     item.li.forEach(listItem => {
                         const uls = document.createElement('ul');
                         uls.innerHTML = `<li>${listItem}</li>`;
                         ulli.append(uls);
                     });
-            
                     container.append(rightdwn);
                 });
-            
-            
                 right.append(container);
-
                 const spanes = document.querySelectorAll('.spane');
                 if (spanes.length > 0) {
-                    // Store the original order of elements
                     const originalOrder = Array.from(container.children);
-                    // Sort by price: Low to High
                     spanes[1].addEventListener('click', () => {
                         spanes[0].style.borderBottom='0px'
                         spanes[2].style.borderBottom='0px'
@@ -502,12 +457,11 @@ document.addEventListener('DOMContentLoaded', () => {
                         rightDwnElements.sort((a, b) => {
                             const priceA = parseFloat(a.querySelector('.apn').textContent.replace(/[^0-9.-]+/g, ""));
                             const priceB = parseFloat(b.querySelector('.apn').textContent.replace(/[^0-9.-]+/g, ""));
-                            return priceA - priceB; // Ascending order (low to high)
+                            return priceA - priceB;
                         });
-                        container.innerHTML = ''; // Clear current elements
-                        rightDwnElements.forEach(el => container.append(el)); // Append sorted elements
+                        container.innerHTML = '';
+                        rightDwnElements.forEach(el => container.append(el));
                     });
-                    // Sort by price: High to Low
                     spanes[2].addEventListener('click', () => {
                         spanes[0].style.borderBottom='0px'
                         spanes[1].style.borderBottom='0px'
@@ -516,21 +470,19 @@ document.addEventListener('DOMContentLoaded', () => {
                         rightDwnElements.sort((a, b) => {
                             const priceA = parseFloat(a.querySelector('.apn').textContent.replace(/[^0-9.-]+/g, ""));
                             const priceB = parseFloat(b.querySelector('.apn').textContent.replace(/[^0-9.-]+/g, ""));
-                            return priceB - priceA; // Descending order (high to low)
+                            return priceB - priceA;
                         });
-                        container.innerHTML = ''; // Clear current elements
-                        rightDwnElements.forEach(el => container.append(el)); // Append sorted elements
+                        container.innerHTML = '';
+                        rightDwnElements.forEach(el => container.append(el));
                     });
-                    // Reset to original order on clicking spanes[0]
                     spanes[0].addEventListener('click', () => {
                         spanes[1].style.borderBottom='0px'
                         spanes[2].style.borderBottom='0px'
                         spanes[0].style.borderBottom=`2px solid #2874F0`
-                        container.innerHTML = ''; // Clear current elements
-                        originalOrder.forEach(el => container.append(el)); // Append original elements
+                        container.innerHTML = '';
+                        originalOrder.forEach(el => container.append(el));
                     });
-                }
-                
+                }                
             const page = document.createElement('div')
             page.className='page-cont'
             page.innerHTML = `
@@ -540,8 +492,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <span class="cyon"></span>
                 </div>
             `
-            right.append(page)
-            
+            right.append(page)           
             const counter = document.querySelector('.counter')
                 const appar = document.createElement('a')
                 appar.href = "#"
@@ -558,8 +509,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="footup"></div>
                     <div class="footdwn"></div>
                 </div>
-            `;
-            
+            `;           
             const footup = document.querySelector('.footup');
             data.footer.forEach(item => {
                 const bowo = document.createElement('div');
@@ -569,7 +519,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="sub"></div>
                 `;
                 footup.append(bowo);
-
                 const sub = bowo.querySelector('.sub');
                 item.sub.forEach(subItem => {
                     const rit = document.createElement('a');
@@ -630,7 +579,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="bhj">${data.mobile.filter}</div>
                 </div>
             `
-
             const topto = document.querySelector('.top21');
             topto.addEventListener('click', function () {
                 const contl = document.querySelector('.cont2');
@@ -698,57 +646,38 @@ document.addEventListener('DOMContentLoaded', () => {
                     beingElements.forEach((element) => {
                         element.addEventListener('click', () => updateImages(element));
                     });
-
                     if (beingElements.length > 0) {
-                        // Store the original order of elements
                         const cgyujn = document.querySelector('.cgyujn');
                         const originalOrder = Array.from(cgyujn.children);
-                    
-                        // Ensure 'container' is correctly defined
                         const container = document.querySelector('.cgyujn'); 
-                    
-                        // Sort and render function
                         function sortAndRender(elements, compareFn) {
                             const sortedElements = Array.from(elements).sort(compareFn);
-                            container.innerHTML = ''; // Clear current elements
-                            sortedElements.forEach(el => container.appendChild(el)); // Append sorted elements
+                            container.innerHTML = '';
+                            sortedElements.forEach(el => container.appendChild(el));
                         }
-                    
-                        // Extract price function
                         function extractPrice(element) {
                             const priceText = element.querySelector('.apn')?.textContent || '0';
                             return parseFloat(priceText.replace(/[^0-9.-]+/g, "")) || 0;
                         }
-                    
-                        // Sort by price: Low to High
                         beingElements[1].addEventListener('click', () => {
                             sortAndRender(cgyujn.children, (a, b) => extractPrice(a) - extractPrice(b));
                         });
-                    
-                        // Sort by price: High to Low
                         beingElements[2].addEventListener('click', () => {
                             sortAndRender(cgyujn.children, (a, b) => extractPrice(b) - extractPrice(a));
                         });
-                    
-                        // Reset to original order on clicking the first element
                         beingElements[0].addEventListener('click', () => {
-                            container.innerHTML = ''; // Clear current elements
-                            originalOrder.forEach(el => container.appendChild(el)); // Append original elements
+                            container.innerHTML = '';
+                            originalOrder.forEach(el => container.appendChild(el));
                         });
                     }
                 }
                 dropdownModel.style.display = dropdownModel.style.display === 'block' ? 'none' : 'block';
             });
-
             const toptoth = document.querySelector('.top23');
             const contl = document.querySelector('.cont2');
-            
             toptoth.addEventListener('click', function () {
                 let newCont = document.querySelector('.dropdwn-cont');
-            
-                // Hide cont2
                 contl.style.display = 'none';
-            
                 if (!newCont) {
                     newCont = document.createElement('div');
                     newCont.className = 'dropdwn-cont';
@@ -758,7 +687,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                 <div class="dro1 juf">
                                     <div class="dore1 juf">
                                         <div class="dorepad juf">
-                                            <div class="doreleft"><div class="lefsub"></div></div>
+                                            <div class="doreleft"></div>
                                             <div class="doreright"></div>
                                         </div>
                                     </div>
@@ -766,18 +695,16 @@ document.addEventListener('DOMContentLoaded', () => {
                             </div>
                         </div>
                         <div class="drop2 juf"></div>
-                        <div class="drop3 juf"></div>
+                        <div class="drop3 juf">
+                            <div class="dr3l"></div>
+                            <div class="dr3r"><span>Apply</span></div>
+                        </div>
                     `;
                     document.body.appendChild(newCont);
-            
-                    // Select lefsub within the newCont to avoid scoping issues
-                    const dorlft = newCont.querySelector('.lefsub');
-                    const doreright = newCont.querySelector('.doreright'); // Scoped properly
-
-                    // Add mobFilters items dynamically
+                    const dorlft = document.querySelector('.doreleft');
                     data.mobFilters.forEach(item => {
                         const dolsub = document.createElement('div');
-                        dolsub.className = 'dolsub'; // Removed redundant nesting
+                        dolsub.className = 'dolsub';
                         dolsub.innerHTML = `
                             <div class="dolf">
                                 <div class="dolf-pad">
@@ -786,16 +713,78 @@ document.addEventListener('DOMContentLoaded', () => {
                             </div>
                         `;
                         dorlft.appendChild(dolsub);
-                        dolsub.addEventListener('click', function () {
-                            runthefun(doreright); // Pass doreright to the function
+                    });
+                    const doreright = document.querySelector('.doreright');
+                    data.doreright.forEach(item => {
+                        const risub = document.createElement('div');
+                        risub.className = 'risub';
+                        doreright.appendChild(risub);
+                        item.title.forEach(title => {
+                            const righsub = document.createElement('div');
+                            righsub.className = 'righsub';
+                            righsub.innerHTML = `
+                                <div class="mjd">
+                                    <div class="faj">
+                                        <div class="muh">
+                                            <div class="bord"></div>
+                                            <div class="attenh">${title}</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            `;
+                    
+                            risub.appendChild(righsub);
                         });
                     });
+                    const dolsubs = document.querySelectorAll('.dolsub');
+                    const risubs = document.querySelectorAll('.risub');
+                    if (risubs.length > 0) {
+                        risubs[0].style.display = 'block';
+                        dolsubs[0].style.backgroundColor = '#fff';
+                    }
+                    dolsubs.forEach((dolsub, index) => {
+                        dolsub.addEventListener('click', () => {
+                            risubs.forEach(risub => risub.style.display = 'none');
+                            dolsubs.forEach(dol => dol.style.backgroundColor = '');
+                            risubs[index].style.display = 'block';
+                            dolsub.style.backgroundColor = '#fff';
+                        });
+                    });
+                    const righsubs = document.querySelectorAll('.righsub');
+                    righsubs.forEach((righsub, index) => {
+                        righsub.addEventListener('click', () => filth(index));
+                    });
+                    function filth(index) {
+                        const bords = document.querySelectorAll('.bord')
+                        bords.forEach((bord, i) => {
+                            if (i === index) {
+                                bord.clicked = !bord.clicked;
+                                
+                                if (bord.clicked) {
+                                    bord.innerHTML = `<img src="icons/check-solid.svg">`;
+                                    bord.style.backgroundColor = '#2874f0';
+                                } else {
+                                    bord.innerHTML = '';
+                                    bord.style.backgroundColor = '';
+                                }
+                            }
+                        });
+                    }
+                        data.mobFilters.forEach(item => {
+                        const dolsub = document.createElement('div');
+                        dolsub.className = 'dolsub';
+                        dolsub.innerHTML = `
+                            <div class="dolf">
+                                <div class="dolf-pad">
+                                    <div class="dolk">${item}</div>
+                                </div>
+                            </div>
+                        `;
+                        dorlft.appendChild(dolsub);
+                    });
+                    
                 }
-            
-                // Show the new container
                 newCont.style.display = 'flex';
-            
-                // Add content to drop2
                 const drop2 = newCont.querySelector('.drop2');
                 drop2.innerHTML = `
                     <a class="clickme">
@@ -805,18 +794,14 @@ document.addEventListener('DOMContentLoaded', () => {
                         <h1>${data.sidebar.fil}</h1>
                     </div>
                 `;
-            
-                // Add click event to hide newCont and show contl again
                 const clickme = newCont.querySelector('.clickme');
                 if (clickme) {
                     clickme.addEventListener('click', function () {
-                        newCont.style.display = 'none'; // Hide newCont
-                        contl.style.display = 'block'; // Show cont2
+                        newCont.style.display = 'none';
+                        contl.style.display = 'block';
                     });
                 }
             });
-            
-            
             document.addEventListener('click', function (event) {
                 const dropdownModel = document.querySelector('.dropdown-model');
                 if (dropdownModel && !topto.contains(event.target) && !dropdownModel.contains(event.target)) {
@@ -922,43 +907,72 @@ document.addEventListener('DOMContentLoaded', () => {
                         </div>
                     </div>
                 `
-
                 const ulli = rightdwn.querySelector('.ulli')
                 item.li.forEach(listItem => {
                     const uls = document.createElement('ul')
                     uls.innerHTML = `<div class="syv"><li>${listItem}</div></li>`
                     ulli.append(uls)
                 })
-        
                 cgyujn.append(rightdwn)
             })     
-            
-            // Function to update pagination controls
+            const itemsPerPage = 24;
+            let currentPage = 1;
+            let currentPageGroupStart = 1;
+            const rightDwnElements = Array.from(container.children);
+            const totalItems = rightDwnElements.length;
+            const totalPages = Math.ceil(totalItems / itemsPerPage);
+            function renderPage(page) {
+                const startIndex = (page - 1) * itemsPerPage;
+                const endIndex = startIndex + itemsPerPage;
+                rightDwnElements.forEach(el => (el.style.display = 'none'));
+                rightDwnElements.slice(startIndex, endIndex).forEach(el => (el.style.display = ''));
+                updatePaginationControls();
+            }
             function updatePaginationControls() {
                 const paginationContainer = document.querySelector('.counter');
-                paginationContainer.innerHTML = ''; // Clear previous controls
-
-            
-                // Create individual page links
-                for (let i = 1; i <= totalPages; i++) {
-                    const pageLink = document.createElement('a');
-                    pageLink.href = '#';
-                    pageLink.textContent = `${i}`;
-                    pageLink.className = i === currentPage ? 'active' : '';
-                    pageLink.addEventListener('click', (e) => {
-                        e.preventDefault();
+                paginationContainer.innerHTML = '';
+                const groupEnd = Math.min(currentPageGroupStart + 9, totalPages);
+                const prevButton = createPageButton('Previous', () => {
+                    if (currentPage > 1) {
+                        currentPage--;
+                        if (currentPage < currentPageGroupStart) {
+                            currentPageGroupStart -= 10;
+                        }
+                        renderPage(currentPage);
+                    }
+                });
+                paginationContainer.appendChild(prevButton);
+                for (let i = currentPageGroupStart; i <= groupEnd; i++) {
+                    const pageLink = createPageButton(`${i}`, () => {
                         currentPage = i;
                         renderPage(currentPage);
                     });
+                    if (i === currentPage) pageLink.classList.add('active');
                     paginationContainer.appendChild(pageLink);
                 }
-            
-                // Update page info display
+                const nextButton = createPageButton('Next', () => {
+                    if (currentPage < totalPages) {
+                        currentPage++;
+                        if (currentPage > groupEnd) {
+                            currentPageGroupStart += 10;
+                        }
+                        renderPage(currentPage);
+                    }
+                });
+                paginationContainer.appendChild(nextButton);
                 const pageInfo = document.querySelector('.page-cont span');
                 pageInfo.textContent = `Page ${currentPage} of ${totalPages}`;
             }
-            
-            // Initial setup for the page display
+            function createPageButton(text, onClick) {
+                const link = document.createElement('a');
+                link.href = '#';
+                link.textContent = text;
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    onClick();
+                });
+                return link;
+            }
             page.className = 'page-cont';
             page.innerHTML = `
                 <div class="page-pad">
@@ -968,37 +982,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `;
             right.append(page);
-            
-            // Initial render
             renderPage(currentPage);
-
-            const dorlft = document.querySelector('.doreleft');
-            data.mobFilters.forEach(item => {
-                const dolsub = document.createElement('div');
-                dolsub.className = 'dolsub';
-                dolsub.innerHTML = `
-                    <div class="dolf">
-                        <div class="dolf-pad">
-                            <div class="dolk">${item}</div>
-                        </div>
-                    </div>
-                `;
-                dorlft.appendChild(dolsub);
-            });            
-            
-            function runthefun(doreright) {
-                if (!doreright) {
-                    console.error("Element '.doreright' not found!");
-                    return;
-                }
-            
-                doreright.innerHTML = `
-                    <div class="dorio"></div>
-                `;
-            }
-            
-            
-            
             data.loop.forEach(item => {
                 const loop = document.createElement('div');
                 loop.className = 'brand';
@@ -1011,7 +995,6 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div class="bot1"></div>
                     </div>
                 `;
-
                 const boto = loop.querySelector('.bot1');
                 item.sub.forEach(subItem => {
                     const brdiv = document.createElement('div');
@@ -1024,10 +1007,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         </label>`;
                     boto.append(brdiv);
                 });
-
                 top.append(loop);
-            });
-            
-                   
+            });    
         })
 })
