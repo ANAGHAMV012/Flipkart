@@ -319,6 +319,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
 
             function filterByBrand() {
+                let currentPage = 1
                 checkboxes.forEach(checkbox => {
                     const appjus = checkbox.parentElement.querySelector('.appjus');
                     if (checkbox.checked) {
@@ -489,48 +490,47 @@ document.addEventListener('DOMContentLoaded', () => {
                 right.append(container);
 
                 const spanes = document.querySelectorAll('.spane');
-
-
                 if (spanes.length > 0) {
                     // Store the original order of elements
                     const originalOrder = Array.from(container.children);
-                
                     // Sort by price: Low to High
                     spanes[1].addEventListener('click', () => {
+                        spanes[0].style.borderBottom='0px'
+                        spanes[2].style.borderBottom='0px'
+                        spanes[1].style.borderBottom=`2px solid #2874F0`
                         const rightDwnElements = Array.from(container.children);
-                
                         rightDwnElements.sort((a, b) => {
                             const priceA = parseFloat(a.querySelector('.apn').textContent.replace(/[^0-9.-]+/g, ""));
                             const priceB = parseFloat(b.querySelector('.apn').textContent.replace(/[^0-9.-]+/g, ""));
                             return priceA - priceB; // Ascending order (low to high)
                         });
-                
                         container.innerHTML = ''; // Clear current elements
                         rightDwnElements.forEach(el => container.append(el)); // Append sorted elements
                     });
-                
                     // Sort by price: High to Low
                     spanes[2].addEventListener('click', () => {
+                        spanes[0].style.borderBottom='0px'
+                        spanes[1].style.borderBottom='0px'
+                        spanes[2].style.borderBottom=`2px solid #2874F0`
                         const rightDwnElements = Array.from(container.children);
-                
                         rightDwnElements.sort((a, b) => {
                             const priceA = parseFloat(a.querySelector('.apn').textContent.replace(/[^0-9.-]+/g, ""));
                             const priceB = parseFloat(b.querySelector('.apn').textContent.replace(/[^0-9.-]+/g, ""));
                             return priceB - priceA; // Descending order (high to low)
                         });
-                
                         container.innerHTML = ''; // Clear current elements
                         rightDwnElements.forEach(el => container.append(el)); // Append sorted elements
                     });
-                
                     // Reset to original order on clicking spanes[0]
                     spanes[0].addEventListener('click', () => {
+                        spanes[1].style.borderBottom='0px'
+                        spanes[2].style.borderBottom='0px'
+                        spanes[0].style.borderBottom=`2px solid #2874F0`
                         container.innerHTML = ''; // Clear current elements
                         originalOrder.forEach(el => container.append(el)); // Append original elements
                     });
                 }
                 
-        
             const page = document.createElement('div')
             page.className='page-cont'
             page.innerHTML = `
@@ -633,10 +633,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const topto = document.querySelector('.top21');
             topto.addEventListener('click', function () {
-                const contto = document.querySelector('.content2');
-                contto.style.backgroundColor = 'rgb(0, 0, 0)';
-                contto.style.opacity = '0.5';
-                contto.style.zIndex='1111';
+                const contl = document.querySelector('.cont2');
+                contl.style.opacity = '0.5';
+                contl.style.backgroundColor = 'rgb(0, 0, 0)';
+                contl.style.zIndex='1001';
                 let dropdownModel = document.querySelector('.dropdown-model');
                 if (!dropdownModel) {
                     dropdownModel = document.createElement('div');
@@ -645,43 +645,185 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div>
                             <div class="soort jot">${data.mobile.drop.sort}</div>
                             <div class="sormid juf"></div>
-                            <div class-"juf">
+                            <div class="juf">
                                 <div class="being juf">
                                     <div class="besub">
                                         <div class="fin jot">${data.mobile.drop.pop}</div>
-                                        <img src="">
+                                        <div class="besim">
+                                            <img src="${data.mobile.sortim2}">
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="being juf">
                                     <div class="besub">
                                         <div class="fin jot">${data.mobile.drop.low}</div>
+                                        <div class="besim">
+                                            <img src="${data.mobile.sortim1}">
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="being juf">
                                     <div class="besub">
                                         <div class="fin jot">${data.mobile.drop.high}</div>
+                                        <div class="besim">
+                                            <img src="${data.mobile.sortim1}">
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="being juf">
                                     <div class="besub juf">
                                         <div class="fin jot">${data.mobile.drop.new}</div>
+                                        <div class="besim">
+                                            <img src="${data.mobile.sortim1}">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     `;
-                    document.body.appendChild(dropdownModel);
+                    const contto = document.querySelector('.content2');
+                    contto.appendChild(dropdownModel);
+                    const beingElements = document.querySelectorAll('.being');
+                    function updateImages(clickedElement) {
+                        beingElements.forEach((element) => {
+                            const img = element.querySelector('.besim img');
+                            if (element === clickedElement) {
+                                img.src = data.mobile.sortim2;
+                            } else {
+                                img.src = data.mobile.sortim1;
+                            }
+                        });
+                    }
+                    beingElements[0].querySelector('.besim img').src = data.mobile.sortim2;
+                    beingElements.forEach((element) => {
+                        element.addEventListener('click', () => updateImages(element));
+                    });
+
+                    if (beingElements.length > 0) {
+                        // Store the original order of elements
+                        const cgyujn = document.querySelector('.cgyujn');
+                        const originalOrder = Array.from(cgyujn.children);
+                    
+                        // Ensure 'container' is correctly defined
+                        const container = document.querySelector('.cgyujn'); 
+                    
+                        // Sort and render function
+                        function sortAndRender(elements, compareFn) {
+                            const sortedElements = Array.from(elements).sort(compareFn);
+                            container.innerHTML = ''; // Clear current elements
+                            sortedElements.forEach(el => container.appendChild(el)); // Append sorted elements
+                        }
+                    
+                        // Extract price function
+                        function extractPrice(element) {
+                            const priceText = element.querySelector('.apn')?.textContent || '0';
+                            return parseFloat(priceText.replace(/[^0-9.-]+/g, "")) || 0;
+                        }
+                    
+                        // Sort by price: Low to High
+                        beingElements[1].addEventListener('click', () => {
+                            sortAndRender(cgyujn.children, (a, b) => extractPrice(a) - extractPrice(b));
+                        });
+                    
+                        // Sort by price: High to Low
+                        beingElements[2].addEventListener('click', () => {
+                            sortAndRender(cgyujn.children, (a, b) => extractPrice(b) - extractPrice(a));
+                        });
+                    
+                        // Reset to original order on clicking the first element
+                        beingElements[0].addEventListener('click', () => {
+                            container.innerHTML = ''; // Clear current elements
+                            originalOrder.forEach(el => container.appendChild(el)); // Append original elements
+                        });
+                    }
                 }
-            
                 dropdownModel.style.display = dropdownModel.style.display === 'block' ? 'none' : 'block';
             });
+
+            const toptoth = document.querySelector('.top23');
+            const contl = document.querySelector('.cont2');
+            
+            toptoth.addEventListener('click', function () {
+                let newCont = document.querySelector('.dropdwn-cont');
+            
+                // Hide cont2
+                contl.style.display = 'none';
+            
+                if (!newCont) {
+                    newCont = document.createElement('div');
+                    newCont.className = 'dropdwn-cont';
+                    newCont.innerHTML = `
+                        <div class="drop1 juf">
+                            <div class="drop1sub juf">
+                                <div class="dro1 juf">
+                                    <div class="dore1 juf">
+                                        <div class="dorepad juf">
+                                            <div class="doreleft"><div class="lefsub"></div></div>
+                                            <div class="doreright"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="drop2 juf"></div>
+                        <div class="drop3 juf"></div>
+                    `;
+                    document.body.appendChild(newCont);
+            
+                    // Select lefsub within the newCont to avoid scoping issues
+                    const dorlft = newCont.querySelector('.lefsub');
+                    const doreright = newCont.querySelector('.doreright'); // Scoped properly
+
+                    // Add mobFilters items dynamically
+                    data.mobFilters.forEach(item => {
+                        const dolsub = document.createElement('div');
+                        dolsub.className = 'dolsub'; // Removed redundant nesting
+                        dolsub.innerHTML = `
+                            <div class="dolf">
+                                <div class="dolf-pad">
+                                    <div class="dolk">${item}</div>
+                                </div>
+                            </div>
+                        `;
+                        dorlft.appendChild(dolsub);
+                        dolsub.addEventListener('click', function () {
+                            runthefun(doreright); // Pass doreright to the function
+                        });
+                    });
+                }
+            
+                // Show the new container
+                newCont.style.display = 'flex';
+            
+                // Add content to drop2
+                const drop2 = newCont.querySelector('.drop2');
+                drop2.innerHTML = `
+                    <a class="clickme">
+                        <img src="${data.mobile.arrow}">
+                    </a>
+                    <div class="drp2rest">
+                        <h1>${data.sidebar.fil}</h1>
+                    </div>
+                `;
+            
+                // Add click event to hide newCont and show contl again
+                const clickme = newCont.querySelector('.clickme');
+                if (clickme) {
+                    clickme.addEventListener('click', function () {
+                        newCont.style.display = 'none'; // Hide newCont
+                        contl.style.display = 'block'; // Show cont2
+                    });
+                }
+            });
+            
             
             document.addEventListener('click', function (event) {
                 const dropdownModel = document.querySelector('.dropdown-model');
                 if (dropdownModel && !topto.contains(event.target) && !dropdownModel.contains(event.target)) {
                     dropdownModel.style.display = 'none';
-                    const contto = document.querySelector('.content2');
-                    contto.style.opacity = '1';
+                    const contl = document.querySelector('.cont2');
+                    contl.style.backgroundColor='rgb(0, 0, 0)'
+                    contl.style.opacity = '1';
                 }
             });
             const topfg = document.querySelector('.top3fg')
@@ -790,26 +932,6 @@ document.addEventListener('DOMContentLoaded', () => {
         
                 cgyujn.append(rightdwn)
             })     
-            const itemsPerPage = 24;
-            let currentPage = 1;
-            
-            const rightDwnElements = Array.from(container.children); // Get all right-dwn elements
-            const totalItems = rightDwnElements.length;
-            const totalPages = Math.ceil(totalItems / itemsPerPage);
-            
-            // Function to render the current page
-            function renderPage(page) {
-                const startIndex = (page - 1) * itemsPerPage;
-                const endIndex = startIndex + itemsPerPage;
-            
-                // Hide all elements initially
-                rightDwnElements.forEach(el => (el.style.display = 'none'));
-            
-                // Show elements for the current page
-                rightDwnElements.slice(startIndex, endIndex).forEach(el => (el.style.display = ''));
-            
-                updatePaginationControls(); // Update pagination controls after rendering
-            }
             
             // Function to update pagination controls
             function updatePaginationControls() {
@@ -849,6 +971,62 @@ document.addEventListener('DOMContentLoaded', () => {
             
             // Initial render
             renderPage(currentPage);
+
+            const dorlft = document.querySelector('.doreleft');
+            data.mobFilters.forEach(item => {
+                const dolsub = document.createElement('div');
+                dolsub.className = 'dolsub';
+                dolsub.innerHTML = `
+                    <div class="dolf">
+                        <div class="dolf-pad">
+                            <div class="dolk">${item}</div>
+                        </div>
+                    </div>
+                `;
+                dorlft.appendChild(dolsub);
+            });            
+            
+            function runthefun(doreright) {
+                if (!doreright) {
+                    console.error("Element '.doreright' not found!");
+                    return;
+                }
+            
+                doreright.innerHTML = `
+                    <div class="dorio"></div>
+                `;
+            }
+            
+            
+            
+            data.loop.forEach(item => {
+                const loop = document.createElement('div');
+                loop.className = 'brand';
+                loop.innerHTML = `
+                    <div class="brandtop">
+                        <div class="bleft">${item.title}</div>
+                        <img src="${data.sidebar.nex}">
+                    </div>
+                    <div class="brand-bot">
+                        <div class="bot1"></div>
+                    </div>
+                `;
+
+                const boto = loop.querySelector('.bot1');
+                item.sub.forEach(subItem => {
+                    const brdiv = document.createElement('div');
+                    brdiv.className = 'mobrand';
+                    brdiv.innerHTML = `
+                        <label>
+                            <input type="checkbox" value="${subItem}">
+                            <div class="appjus"></div>
+                            <div class="kof">${subItem}</div>
+                        </label>`;
+                    boto.append(brdiv);
+                });
+
+                top.append(loop);
+            });
             
                    
         })

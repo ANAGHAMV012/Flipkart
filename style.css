@@ -745,6 +745,9 @@ html{
     font-family: 'ir';
     font-size: 13px;
 }
+.spane:nth-child(2){
+    border-bottom: 2px solid #2874F0;
+}
 .span.show{
     color: #2874f0;
     cursor: default;
@@ -1151,7 +1154,6 @@ html{
     position: relative;
 }
 .content2{
-    background-color: rgb(255, 255, 255);
     right: 0px;
     position: absolute;
     top: 0px;
@@ -1159,13 +1161,13 @@ html{
     left: 0px;
 }
 .dropdown-model {
-    position: fixed;  /* Position it relative to the viewport */
-    bottom: 0;  /* Align it to the bottom of the screen */
-    left: 0;  /* Optional: Align it to the left edge */
-    right: 0;  /* Optional: Align it to the right edge */
-    background-color: white;  /* Set background color */
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);  /* Optional: Add a shadow for depth */
-    z-index: 1000000;  /* Ensure it appears above other elements */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 23456789234567;
 }
 .vhu{
     padding-top: 52px;
@@ -1467,6 +1469,154 @@ html{
     overflow: hidden;
     width: 100vw;
 }
+.dropdwn-cont{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 101010;
+    background-color: rgb(241, 242, 244);
+    flex: 1 1 0%;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+.drop1{
+    flex: 1 1 0%;
+    background-color: rgb(241, 242, 244);
+}
+.drop1sub{
+    min-width: 1px;
+    min-height: 1px;
+    flex: 1;
+}
+.dro1{
+    flex: 1 1 0%;
+}
+.dore1{
+    flex-direction: column;
+    overflow-y: hidden;
+    min-width: 1px;
+    flex-shrink: 1;
+    transform: translateZ(0px);
+    min-height: 1px;
+    touch-action: none;
+    flex-grow: 1;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: hidden;
+    flex: 1;
+}
+.dorepad{
+    padding-top: 52px;
+    padding-bottom: 56px;
+    height: max-content;
+}
+.doreleft{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    width: 33.33%;
+}
+.doreright{
+    transform: translate(243.667px, 0px);
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    min-height: 0px;
+    min-width: 0px;
+    left: 0px;
+    width: 66.67%;
+    height: 100%;
+}
+.dorio{
+    height: 240px;
+    border-block-end-width: 100%;
+}
+.lefsub{
+    height: 776px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    background-color: rgb(241, 243, 246);
+}
+.dolsub{
+    height: 56px;
+    overflow: hidden;
+    align-items: stretch;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.drp2rest{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.drp2rest h1{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'ir';
+}
+.dolf{
+    flex: 1;
+}
+.dolf-pad{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgba(241, 243, 246, 1.00);
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 8px;
+    align-items: center;
+    flex-direction: row;
+}
+.dolk{
+    font-size: 14px;
+    margin-right: 8px;
+    color: rgba(0, 0, 0, 1.00);
+    max-width: 100%;
+    line-height: 20px;
+    font-family: 'ir';
+    letter-spacing: -.5px;
+}
+.drop2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+}
+.drop2 a{
+    color: #fff;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 42px;
+    line-height: 10px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.drop3{
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+    height: 56px;
+}
 .right-dwn{
     background-color: rgb(241, 242, 244);
 }
@@ -1601,13 +1751,33 @@ html{
     margin-left: 0px;
 }
 .besub{
+    display: flex;
     width: 100%;
     padding-right: 12px;
+    justify-content: space-between;
     padding-left: 12px;
     flex-direction: row;
     padding-top: 6px;
     padding-bottom: 6px;
     flex: 1;
+}
+.besim{
+    display: flex;
+    position: relative;
+    margin-right: 8px;
+    margin-top: 2px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    opacity: 1;
+    width: 16px;
+    height: 16px;
+}
+.besim img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    object-fit: contain;
+    opacity: 1;
 }
 .sormid{
     height: 1px;
