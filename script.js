@@ -846,6 +846,9 @@ document.addEventListener('DOMContentLoaded', () => {
                         </div>
                     </div>
                 `
+                if (index === 0){
+                    djb.classList.add('nkx')
+                }
                 if (index === 1) {
                     djb.classList.add('cvg')
                 }
@@ -854,6 +857,33 @@ document.addEventListener('DOMContentLoaded', () => {
                     djb.classList.add('gbm')
                 }
             })
+
+            const cvg = document.querySelector('.cvg');
+            cvg.addEventListener('click', () => {
+                const rightDwns = document.querySelectorAll('.right-dwn');
+                const cgyujn = document.querySelector('.cgyujn');
+                cgyujn.innerHTML = '';
+                rightDwns.forEach(element => {
+                    if (element.textContent.includes('5G')) {
+                        const clone = element.cloneNode(true);
+                        cgyujn.appendChild(clone);
+                    }
+                });
+            });
+            
+            const nkx = document.querySelector('.nkx');
+            nkx.addEventListener('click', () => {
+                const rightDwns = document.querySelectorAll('.right-dwn');
+                const cgyujn = document.querySelector('.cgyujn');
+                cgyujn.innerHTML = '';
+                rightDwns.forEach(element => {
+                    if (element.textContent.includes('Top')) {
+                        const clone = element.cloneNode(true);
+                        cgyujn.appendChild(clone);
+                    }
+                });
+            });
+
             const cgyujn = document.querySelector('.cgyujn')
             data.right.rightmain.forEach(item => {
                 const rightdwn = document.createElement('div')
